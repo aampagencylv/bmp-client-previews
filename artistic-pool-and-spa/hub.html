@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artistic Pool & Spa — Marketing Package Hub | Backyard Marketing Pros</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Open Sans', sans-serif; color: #333; line-height: 1.7; background: #0d1b2a; }
+    h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
+    a { text-decoration: none; }
+
+    .hub-header {
+      background: linear-gradient(135deg, #1a3a5c 0%, #0d1b2a 100%);
+      padding: 60px 20px 40px;
+      text-align: center;
+      color: #fff;
+      border-bottom: 3px solid #d4a843;
+    }
+    .hub-header .badge {
+      display: inline-block;
+      background: #d4a843;
+      color: #0d1b2a;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 6px 16px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .hub-header h1 { color: #fff; font-size: 2.2rem; margin-bottom: 8px; }
+    .hub-header p { color: rgba(255,255,255,.7); font-size: 1rem; max-width: 600px; margin: 0 auto; }
+
+    .hub-meta {
+      display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;
+      margin-top: 24px; font-size: .85rem; color: rgba(255,255,255,.5);
+    }
+    .hub-meta span { display: inline-flex; align-items: center; gap: 6px; }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+
+    .section-title {
+      font-size: 1.1rem; font-weight: 700; color: #d4a843;
+      text-transform: uppercase; letter-spacing: 2px;
+      margin-bottom: 20px; padding-bottom: 10px;
+      border-bottom: 1px solid rgba(212,168,67,.3);
+    }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; margin-bottom: 48px; }
+
+    .card {
+      background: #162336;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 10px;
+      padding: 24px;
+      transition: border-color .2s, transform .2s;
+    }
+    .card:hover { border-color: #d4a843; transform: translateY(-2px); }
+    .card h3 { color: #fff; font-size: 1rem; margin-bottom: 6px; }
+    .card .agent { color: #d4a843; font-size: .8rem; font-weight: 600; margin-bottom: 8px; }
+    .card p { color: rgba(255,255,255,.6); font-size: .85rem; margin-bottom: 12px; }
+    .card .tag {
+      display: inline-block;
+      background: rgba(212,168,67,.15);
+      color: #d4a843;
+      font-size: .7rem;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+      margin-right: 6px;
+      margin-bottom: 4px;
+    }
+    .card .link-row { margin-top: 14px; }
+    .card .link-row a {
+      color: #d4a843;
+      font-size: .85rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .card .link-row a:hover { color: #f0c75e; }
+
+    .preview-links { margin-bottom: 48px; }
+    .preview-links h2 { color: #fff; font-size: 1.4rem; margin-bottom: 16px; }
+    .preview-links .link-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px;
+    }
+    .preview-links .plink {
+      display: flex; align-items: center; gap: 12px;
+      background: #162336; border: 1px solid rgba(255,255,255,.08);
+      border-radius: 8px; padding: 16px 20px; color: #fff;
+      font-weight: 600; font-size: .9rem; transition: all .2s;
+    }
+    .preview-links .plink:hover { border-color: #d4a843; background: #1a2d45; }
+    .preview-links .plink .icon { font-size: 1.4rem; }
+
+    .score-bar {
+      display: flex; align-items: center; gap: 12px;
+      background: #162336; border-radius: 8px; padding: 20px 24px;
+      margin-bottom: 12px;
+    }
+    .score-bar .score-label { color: rgba(255,255,255,.6); font-size: .85rem; flex: 1; }
+    .score-bar .score-num {
+      font-family: 'Montserrat', sans-serif; font-weight: 800;
+      font-size: 1.6rem; min-width: 60px; text-align: right;
+    }
+    .score-bar .bar { flex: 2; height: 8px; background: rgba(255,255,255,.1); border-radius: 4px; overflow: hidden; }
+    .score-bar .bar-fill { height: 100%; border-radius: 4px; }
+    .red { color: #ff6b6b; } .red .bar-fill { background: #ff6b6b; }
+    .yellow { color: #ffc145; } .yellow .bar-fill { background: #ffc145; }
+    .green { color: #51cf66; } .green .bar-fill { background: #51cf66; }
+
+    .footer-hub {
+      text-align: center; padding: 40px 20px;
+      color: rgba(255,255,255,.3); font-size: .8rem;
+      border-top: 1px solid rgba(255,255,255,.06);
+    }
+    .footer-hub a { color: #d4a843; }
+
+    @media (max-width: 600px) {
+      .hub-header h1 { font-size: 1.6rem; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hub-header">
+    <div class="badge">Client Preview</div>
+    <h1>Artistic Pool & Spa</h1>
+    <p>Full marketing package prepared by Backyard Marketing Pros — your AI-powered digital marketing agency.</p>
+    <div class="hub-meta">
+      <span>📍 Las Vegas, NV</span>
+      <span>📅 February 2026</span>
+      <span>📦 Starter Package — $4,000/mo</span>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- ===== LIVE PREVIEW PAGES ===== -->
+    <div class="preview-links">
+      <h2>🌐 Live Preview Pages</h2>
+      <div class="link-grid">
+        <a href="index.html" class="plink"><span class="icon">🏠</span> Homepage</a>
+        <a href="service/custom-pool-construction-las-vegas.html" class="plink"><span class="icon">🏗️</span> Custom Pool Construction</a>
+        <a href="service/pool-remodeling-las-vegas.html" class="plink"><span class="icon">🔧</span> Pool Remodeling</a>
+        <a href="service/water-features-las-vegas.html" class="plink"><span class="icon">💧</span> Water Features</a>
+        <a href="area/henderson-pool-builder.html" class="plink"><span class="icon">📍</span> Henderson Service Area</a>
+        <a href="area/summerlin-pool-builder.html" class="plink"><span class="icon">📍</span> Summerlin Service Area</a>
+        <a href="area/north-las-vegas-pool-builder.html" class="plink"><span class="icon">📍</span> North Las Vegas Service Area</a>
+        <a href="contact.html" class="plink"><span class="icon">📞</span> Contact / Estimate Page</a>
+      </div>
+    </div>
+
+    <!-- ===== AUDIT SCORES ===== -->
+    <div class="section-title">📊 Current Site Audit Scores</div>
+    <div style="margin-bottom: 48px;">
+      <div class="score-bar red">
+        <div class="score-label">Analytics & Tracking (Happy)</div>
+        <div class="bar"><div class="bar-fill" style="width:28%"></div></div>
+        <div class="score-num">28<span style="font-size:.8rem;font-weight:400">/100</span></div>
+      </div>
+      <div class="score-bar yellow">
+        <div class="score-label">UX & User Experience (Wong)</div>
+        <div class="bar"><div class="bar-fill" style="width:52%"></div></div>
+        <div class="score-num">52<span style="font-size:.8rem;font-weight:400">/100</span></div>
+      </div>
+      <div class="score-bar yellow">
+        <div class="score-label">SEO Health (Vision)</div>
+        <div class="bar"><div class="bar-fill" style="width:52%"></div></div>
+        <div class="score-num">52<span style="font-size:.8rem;font-weight:400">/100</span></div>
+      </div>
+      <div class="score-bar yellow">
+        <div class="score-label">Technical Performance (Banner)</div>
+        <div class="bar"><div class="bar-fill" style="width:58%"></div></div>
+        <div class="score-num">58<span style="font-size:.8rem;font-weight:400">/100</span></div>
+      </div>
+      <p style="color:rgba(255,255,255,.4); font-size:.8rem; margin-top:12px;">
+        Scores reflect the <strong>existing</strong> artisticpoolandspa.com site. Our rebuild targets 85+ across all categories within 30 days.
+      </p>
+    </div>
+
+    <!-- ===== STRATEGY & PLANNING ===== -->
+    <div class="section-title">📋 Strategy & Planning</div>
+    <div class="grid">
+      <div class="card">
+        <h3>Marketing Plan — Part 1</h3>
+        <div class="agent">🦾 Jarvis (Lead)</div>
+        <p>Executive Summary, Competitive Landscape, SEO Strategy, Google Ads/PPC, Social Media, Website & Landing Pages.</p>
+        <span class="tag">Strategy</span><span class="tag">Comprehensive</span>
+      </div>
+      <div class="card">
+        <h3>Marketing Plan — Part 2</h3>
+        <div class="agent">🦾 Jarvis (Lead)</div>
+        <p>Creative Direction, Client Onboarding & Timeline, Analytics & Tracking, Sales Enablement, Budget & ROI Projection.</p>
+        <span class="tag">Strategy</span><span class="tag">ROI</span>
+      </div>
+      <div class="card">
+        <h3>Pitch Deck — 12 Slides</h3>
+        <div class="agent">👑 Shuri (Creative)</div>
+        <p>Full Steve-presentable deck: Cover, About, Competitive Landscape, Strategy, Services, LP Preview, Video, Social, Content, Close.</p>
+        <span class="tag">Pitch</span><span class="tag">12 Slides</span>
+      </div>
+      <div class="card">
+        <h3>Proposal Structure</h3>
+        <div class="agent">📋 Coulson (Sales Ops)</div>
+        <p>$4K/mo Starter package. 7 sections with talk track, objection handlers, and ROI math for Steve.</p>
+        <span class="tag">Sales</span><span class="tag">$4K/mo</span>
+      </div>
+      <div class="card">
+        <h3>Competitive Landscape</h3>
+        <div class="agent">🔮 Oracle (Research)</div>
+        <p>Scorpion Cluster finding: 4+ competitors using identical templates. 2x2 positioning grid. Blue Haven analysis.</p>
+        <span class="tag">Research</span><span class="tag">Scorpion Cluster</span>
+      </div>
+    </div>
+
+    <!-- ===== SEO & TECHNICAL ===== -->
+    <div class="section-title">🔍 SEO & Technical</div>
+    <div class="grid">
+      <div class="card">
+        <h3>SEO Audit + Keyword Map</h3>
+        <div class="agent">👁️ Vision (Technical SEO)</div>
+        <p>Current score: 52/100. 30-day roadmap to 80+. "pool builders las vegas" (1.2K/mo) as primary keyword target.</p>
+        <span class="tag">SEO</span><span class="tag">Keywords</span>
+      </div>
+      <div class="card">
+        <h3>Technical Site Review</h3>
+        <div class="agent">🔧 Banner (Web Dev)</div>
+        <p>Score: 58/100. Schema JSON-LD, hero fixes, sticky footer, form success state, WP Rocket config, CallRail DNI spec.</p>
+        <span class="tag">Technical</span><span class="tag">Schema</span>
+      </div>
+      <div class="card">
+        <h3>GBP Audit & 90-Day Plan</h3>
+        <div class="agent">🌈 Heimdall (Local SEO)</div>
+        <p>NAP verified, 90-day optimization plan, 6 GBP post transformation templates, review velocity campaign.</p>
+        <span class="tag">Local SEO</span><span class="tag">GBP</span>
+      </div>
+      <div class="card">
+        <h3>UX Audit</h3>
+        <div class="agent">🖌️ Wong (UX/UI)</div>
+        <p>Score: 52/100. Critical fixes: CTA consolidation, phone-first form, mobile navigation, social proof above fold.</p>
+        <span class="tag">UX</span><span class="tag">Mobile</span>
+      </div>
+      <div class="card">
+        <h3>Analytics & Tracking Audit</h3>
+        <div class="agent">😊 Happy (Analytics)</div>
+        <p>Pre-launch gate: 28/100 → 85/100 in 3-day sprint. GA4, GTM, CallRail DNI, Meta Pixel, CAPI.</p>
+        <span class="tag">Analytics</span><span class="tag">Gate</span>
+      </div>
+    </div>
+
+    <!-- ===== PAID MEDIA ===== -->
+    <div class="section-title">🎯 Paid Media</div>
+    <div class="grid">
+      <div class="card">
+        <h3>Google Ads Campaign Structure</h3>
+        <div class="agent">🎯 Hawkeye (Google Ads)</div>
+        <p>5 campaigns, $1,800/mo: Branded ($200), Custom Pool ($800), Local Geo ($300), Conquest ($200), LSA ($300).</p>
+        <span class="tag">Google Ads</span><span class="tag">$1,800/mo</span>
+      </div>
+      <div class="card">
+        <h3>Full Ad Copy Package</h3>
+        <div class="agent">✨ Wanda (Ad Copy)</div>
+        <p>Google RSA: 20 headlines + 4 descriptions. Meta: 3 ad sets/6 variants. TikTok: 5 caption sets. Nextdoor: 3 sets.</p>
+        <span class="tag">Copy</span><span class="tag">Multi-Platform</span>
+      </div>
+      <div class="card">
+        <h3>Social Ads Strategy</h3>
+        <div class="agent">🦅 Falcon (Social Ads)</div>
+        <p>Meta primary, Nextdoor hyperlocal, TikTok opportunistic. Spark Ads for video, CallRail tracking per platform.</p>
+        <span class="tag">Meta</span><span class="tag">TikTok</span><span class="tag">Nextdoor</span>
+      </div>
+    </div>
+
+    <!-- ===== CONTENT & SOCIAL ===== -->
+    <div class="section-title">📱 Content & Social</div>
+    <div class="grid">
+      <div class="card">
+        <h3>Landing Page Copy (lp-google-search)</h3>
+        <div class="agent">📝 Echo (Content)</div>
+        <p>Full LP copy: Hero, trust bar, benefits, testimonials, 7 services, 6 FAQs, variant notes for social/nextdoor.</p>
+        <span class="tag">LP Copy</span><span class="tag">6 FAQs</span>
+      </div>
+      <div class="card">
+        <h3>Website Mockup & Rebuild Specs</h3>
+        <div class="agent">🚀 Rocket (Landing Pages)</div>
+        <p>Full mobile/desktop wireframes, 11-part document, lp-google-search build-ready, lp-social-traffic scaffold.</p>
+        <span class="tag">Wireframes</span><span class="tag">Build-Ready</span>
+      </div>
+      <div class="card">
+        <h3>4-Week Social Content Calendar</h3>
+        <div class="agent">🧘 Mantis (Social)</div>
+        <p>Full posting schedule across Instagram, Facebook, TikTok/Reels, YouTube Shorts. 5 sample posts with UTMs.</p>
+        <span class="tag">Calendar</span><span class="tag">Multi-Platform</span>
+      </div>
+      <div class="card">
+        <h3>5 Short-Form Video Scripts</h3>
+        <div class="agent">🌱 Groot (Video)</div>
+        <p>Vegas Oasis Reveal, Swim-Up Bar Lifestyle, Price Reveal, Vegas Winter Hack, 40 Years. Shot-by-shot breakdowns.</p>
+        <span class="tag">Video</span><span class="tag">5 Scripts</span>
+      </div>
+      <div class="card">
+        <h3>Creative Direction + Pitch Deck Specs</h3>
+        <div class="agent">👑 Shuri (Design)</div>
+        <p>Deep Pool Blue #0A4D7A + Vegas Gold #C9A84C. Typography locked. All platform ad sizes. 5 thumbnail concepts.</p>
+        <span class="tag">Brand</span><span class="tag">Visual</span>
+      </div>
+    </div>
+
+    <!-- ===== SALES & CLIENT SUCCESS ===== -->
+    <div class="section-title">🤝 Sales & Client Success</div>
+    <div class="grid">
+      <div class="card">
+        <h3>Sales Hook Analysis</h3>
+        <div class="agent">🤖 Friday (SDR)</div>
+        <p>ICP scoring (A-tier), "why now" angle, 4 objection handlers with scripts, discovery hook: "1,600 searches/mo."</p>
+        <span class="tag">Sales</span><span class="tag">Objections</span>
+      </div>
+      <div class="card">
+        <h3>Client Onboarding Package</h3>
+        <div class="agent">🌶️ Pepper (Client Success)</div>
+        <p>Welcome email, 60-min kickoff agenda, 10-item access checklist, 30-day timeline, close sequence for Slide 10.</p>
+        <span class="tag">Onboarding</span><span class="tag">Timeline</span>
+      </div>
+    </div>
+
+    <!-- ===== ROI SNAPSHOT ===== -->
+    <div class="section-title">💰 ROI Snapshot</div>
+    <div style="margin-bottom:48px;">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:16px;">
+        <div style="background:#162336; border-radius:10px; padding:24px; text-align:center;">
+          <div style="color:#d4a843; font-family:'Montserrat',sans-serif; font-size:2rem; font-weight:800;">$4,000</div>
+          <div style="color:rgba(255,255,255,.5); font-size:.85rem;">Monthly Investment</div>
+        </div>
+        <div style="background:#162336; border-radius:10px; padding:24px; text-align:center;">
+          <div style="color:#d4a843; font-family:'Montserrat',sans-serif; font-size:2rem; font-weight:800;">~33</div>
+          <div style="color:rgba(255,255,255,.5); font-size:.85rem;">Estimated Leads/Mo</div>
+        </div>
+        <div style="background:#162336; border-radius:10px; padding:24px; text-align:center;">
+          <div style="color:#d4a843; font-family:'Montserrat',sans-serif; font-size:2rem; font-weight:800;">3.3</div>
+          <div style="color:rgba(255,255,255,.5); font-size:.85rem;">Projected Deals/Mo</div>
+        </div>
+        <div style="background:#162336; border-radius:10px; padding:24px; text-align:center;">
+          <div style="color:#d4a843; font-family:'Montserrat',sans-serif; font-size:2rem; font-weight:800;">18x</div>
+          <div style="color:rgba(255,255,255,.5); font-size:.85rem;">ROI (1 Pool = 18mo Ad Spend)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== THE TEAM ===== -->
+    <div class="section-title">🦸 The Squad Behind This Package</div>
+    <div style="margin-bottom:48px; color:rgba(255,255,255,.6); font-size:.9rem; line-height:1.8;">
+      <p>This marketing package was produced by <strong style="color:#fff;">17 specialized AI agents</strong> working collaboratively under Jarvis (Lead) — each an expert in their domain:</p>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(240px,1fr)); gap:8px 16px; margin-top:16px;">
+        <span>🦾 <strong style="color:#fff;">Jarvis</strong> — Lead / Chief of Staff</span>
+        <span>🤖 <strong style="color:#fff;">Friday</strong> — SDR / Sales Dev</span>
+        <span>📋 <strong style="color:#fff;">Coulson</strong> — Sales Operations</span>
+        <span>👁️ <strong style="color:#fff;">Vision</strong> — Technical SEO</span>
+        <span>🌈 <strong style="color:#fff;">Heimdall</strong> — Local SEO</span>
+        <span>📝 <strong style="color:#fff;">Echo</strong> — Content Writer</span>
+        <span>🎯 <strong style="color:#fff;">Hawkeye</strong> — Google Ads</span>
+        <span>🦅 <strong style="color:#fff;">Falcon</strong> — Social Ads</span>
+        <span>✨ <strong style="color:#fff;">Wanda</strong> — Ad Copy</span>
+        <span>🧘 <strong style="color:#fff;">Mantis</strong> — Social Media</span>
+        <span>🌱 <strong style="color:#fff;">Groot</strong> — Video Content</span>
+        <span>👑 <strong style="color:#fff;">Shuri</strong> — Creative Design</span>
+        <span>🚀 <strong style="color:#fff;">Rocket</strong> — Landing Pages</span>
+        <span>🔧 <strong style="color:#fff;">Banner</strong> — Web Dev Lead</span>
+        <span>🖌️ <strong style="color:#fff;">Wong</strong> — UX/UI</span>
+        <span>🌶️ <strong style="color:#fff;">Pepper</strong> — Client Success</span>
+        <span>😊 <strong style="color:#fff;">Happy</strong> — Analytics</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-hub">
+    <p>Prepared by <a href="https://backyardmarketingpros.com">Backyard Marketing Pros</a> — AI-powered marketing for home service businesses.</p>
+    <p style="margin-top:8px;">Part of the <a href="https://aamp.agency">AAMP Agency</a> family. &copy; 2026</p>
+  </div>
+
+</body>
+</html>
