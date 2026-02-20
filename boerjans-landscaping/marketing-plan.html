@@ -1,0 +1,1796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boerjan's Landscaping & Design — Full Marketing Plan | Backyard Marketing Pros</title>
+  <meta name="description" content="Comprehensive digital marketing plan for Boerjan's Landscaping & Design — San Antonio's premier landscaper. Prepared by Backyard Marketing Pros, February 2026.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* ============================================
+       Marketing Plan — Specific Styles
+       ============================================ */
+
+    :root {
+      --green:    #16A34A;
+      --terra:    #C2410C;
+      --slate:    #1E293B;
+      --lgreen:   #F0FDF4;
+      --sand:     #FAFAF8;
+      --green-dark: #14532d;
+    }
+
+    .report-body { background: #f1f5f9; min-height: 100vh; }
+    .report-container { max-width: 960px; margin: 0 auto; padding: 0 20px 80px; }
+
+    /* --- Cover --- */
+    .report-cover {
+      background: linear-gradient(135deg, var(--slate) 0%, #0f172a 50%, var(--green-dark) 100%);
+      color: #fff;
+      padding: 60px 40px 50px;
+      text-align: center;
+      border-bottom: 5px solid var(--green);
+      position: relative;
+      overflow: hidden;
+    }
+    .report-cover::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url('https://images.pexels.com/photos/1453499/pexels-photo-1453499.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover;
+      opacity: .08;
+    }
+    .report-cover > * { position: relative; z-index: 1; }
+    .report-cover .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: rgba(255,255,255,.6);
+      font-size: .82rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 32px;
+      text-decoration: none;
+      transition: color .2s;
+    }
+    .report-cover .back-link:hover { color: #86efac; }
+    .report-badge {
+      display: inline-block;
+      background: var(--green);
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 5px 14px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+    .report-cover h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: .3em;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .report-cover .client-name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #86efac;
+      letter-spacing: .5px;
+      margin-bottom: .25em;
+    }
+    .report-cover .subtitle {
+      font-size: .9rem;
+      color: rgba(255,255,255,.6);
+    }
+
+    .report-meta-bar {
+      background: var(--slate);
+      padding: 14px 40px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      border-bottom: 2px solid var(--green);
+    }
+    .report-meta-bar .meta-item {
+      color: rgba(255,255,255,.75);
+      font-size: .82rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .report-meta-bar .meta-item strong { color: #86efac; }
+
+    /* --- TOC --- */
+    .toc-wrapper {
+      background: #fff;
+      border-radius: 8px;
+      padding: 36px 40px;
+      margin: 32px 0;
+      box-shadow: 0 2px 16px rgba(0,0,0,.07);
+      border-top: 4px solid var(--green);
+    }
+    .toc-wrapper h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #999;
+      font-weight: 700;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #eee;
+    }
+    .toc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+    .toc-item {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      padding: 9px 12px 9px 0;
+      border-bottom: 1px solid #f0f0f0;
+      text-decoration: none;
+      transition: background .15s;
+    }
+    .toc-item:hover { background: #fafafa; }
+    .toc-item:hover .toc-title { color: var(--green); }
+    .toc-num {
+      font-family: 'Montserrat', sans-serif;
+      font-size: .72rem;
+      font-weight: 800;
+      color: var(--green);
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      min-width: 36px;
+      flex-shrink: 0;
+    }
+    .toc-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: .88rem;
+      font-weight: 600;
+      color: var(--slate);
+      line-height: 1.3;
+      transition: color .2s;
+    }
+    .toc-appendix { grid-column: 1 / -1; border-bottom: none; }
+
+    /* --- Sections --- */
+    .report-section {
+      background: #fff;
+      border-radius: 8px;
+      padding: 44px 48px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 16px rgba(0,0,0,.06);
+      scroll-margin-top: 80px;
+    }
+    .section-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: .7rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      color: var(--green);
+      margin-bottom: 8px;
+    }
+    .report-section > h2.section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      color: var(--slate);
+      margin-bottom: 28px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid #eee;
+      line-height: 1.2;
+    }
+    .report-section h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--slate);
+      margin-top: 32px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .report-section h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: .95rem;
+      font-weight: 700;
+      color: var(--slate);
+      margin-top: 22px;
+      margin-bottom: 8px;
+    }
+    .report-section p { font-size: .94rem; color: #444; line-height: 1.75; }
+    .report-section ul, .report-section ol {
+      margin-left: 20px;
+      margin-bottom: 1rem;
+    }
+    .report-section li { font-size: .92rem; color: #444; margin-bottom: 4px; line-height: 1.65; }
+
+    /* --- Client Card --- */
+    .client-card {
+      background: var(--lgreen);
+      border-radius: 6px;
+      padding: 24px 28px;
+      margin-bottom: 28px;
+      border-left: 4px solid var(--green);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 40px;
+    }
+    .client-card dt {
+      font-family: 'Montserrat', sans-serif;
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      color: #6b7280;
+      margin-bottom: 1px;
+    }
+    .client-card dd {
+      font-size: .92rem;
+      font-weight: 600;
+      color: var(--slate);
+      margin-bottom: 12px;
+      margin-left: 0;
+    }
+    .package-pill {
+      grid-column: 1 / -1;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--slate);
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: .85rem;
+      padding: 10px 20px;
+      border-radius: 4px;
+      width: fit-content;
+    }
+    .package-pill span { color: #86efac; }
+
+    /* --- Report Tables --- */
+    .report-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: .88rem;
+    }
+    .report-table th {
+      background: var(--slate);
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      padding: 11px 14px;
+      text-align: left;
+    }
+    .report-table th:first-child { border-radius: 4px 0 0 0; }
+    .report-table th:last-child { border-radius: 0 4px 0 0; }
+    .report-table td { padding: 10px 14px; border-bottom: 1px solid #eee; vertical-align: top; }
+    .report-table tr:last-child td { border-bottom: none; }
+    .report-table tr:hover td { background: #fafff9; }
+    .report-table .check { color: var(--green); font-weight: 700; }
+    .report-table .cross { color: #dc2626; }
+    .report-table .highlight { background: #f0fdf4; font-weight: 600; }
+    .report-table .highlight td { background: #f0fdf4; }
+
+    /* --- Info Boxes --- */
+    .info-box {
+      border-radius: 6px;
+      padding: 18px 22px;
+      margin: 18px 0;
+      font-size: .9rem;
+    }
+    .info-box.green { background: var(--lgreen); border-left: 4px solid var(--green); }
+    .info-box.terra { background: #fff5f0; border-left: 4px solid var(--terra); }
+    .info-box.slate { background: #f1f5f9; border-left: 4px solid var(--slate); }
+    .info-box strong { display: block; font-family: 'Montserrat', sans-serif; font-weight: 700; margin-bottom: 6px; font-size: .82rem; text-transform: uppercase; letter-spacing: .5px; }
+
+    /* --- Stat Callout --- */
+    .r-stat-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 14px;
+      margin: 20px 0;
+    }
+    .r-stat {
+      background: var(--lgreen);
+      border-radius: 6px;
+      padding: 16px;
+      text-align: center;
+    }
+    .r-stat .rn {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 1.9rem;
+      color: var(--green);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .r-stat .rl { font-size: .78rem; color: #555; line-height: 1.3; }
+    .r-stat.terra { background: #fff5f0; }
+    .r-stat.terra .rn { color: var(--terra); }
+    .r-stat.slate { background: #f1f5f9; }
+    .r-stat.slate .rn { color: var(--slate); }
+
+    /* --- Three-Angle Panels --- */
+    .angle-panels {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    .ap {
+      padding: 28px 22px;
+      color: #fff;
+    }
+    .ap:nth-child(1) { background: var(--green); }
+    .ap:nth-child(2) { background: var(--terra); }
+    .ap:nth-child(3) { background: var(--slate); }
+    .ap .ap-num {
+      font-family: 'Montserrat', sans-serif;
+      font-size: .65rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      opacity: .7;
+      margin-bottom: 8px;
+    }
+    .ap .ap-icon { font-size: 1.6rem; margin-bottom: 8px; }
+    .ap h4 { color: #fff; font-size: 1.05rem; margin-bottom: 4px; }
+    .ap .ap-hook { font-style: italic; opacity: .9; font-size: .88rem; margin-bottom: 10px; line-height: 1.4; }
+    .ap .ap-plat {
+      display: inline-block;
+      background: rgba(255,255,255,.2);
+      padding: 3px 10px;
+      border-radius: 10px;
+      font-size: .7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    /* --- Keyword Tiers --- */
+    .kw-tier {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 16px 0;
+    }
+    .kw-tier-header {
+      background: var(--slate);
+      color: #fff;
+      padding: 10px 18px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: .82rem;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .kw-tier-header .kw-badge {
+      background: var(--green);
+      font-size: .68rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+    .kw-rows { padding: 0; }
+    .kw-row {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 0;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 9px 18px;
+      font-size: .84rem;
+      align-items: center;
+    }
+    .kw-row:last-child { border-bottom: none; }
+    .kw-row:hover { background: #fafff9; }
+    .kw-row .kw { font-weight: 500; color: var(--slate); }
+    .kw-row .vol { color: var(--green); font-weight: 600; }
+    .kw-row .diff { color: #64748b; }
+    .kw-row .intent { font-size: .75rem; font-weight: 700; background: #f0fdf4; color: var(--green-dark); padding: 2px 8px; border-radius: 10px; text-align: center; }
+    .kw-row.header { background: #f8fafc; font-family: 'Montserrat', sans-serif; font-size: .73rem; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; color: #64748b; padding: 8px 18px; }
+
+    /* --- Phase / Timeline --- */
+    .phase-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    .pc {
+      padding: 22px 18px;
+      font-size: .84rem;
+    }
+    .pc:nth-child(1) { background: var(--green); color: #fff; }
+    .pc:nth-child(2) { background: #15803d; color: #fff; }
+    .pc:nth-child(3) { background: var(--green-dark); color: #fff; }
+    .pc:nth-child(4) { background: var(--slate); color: #fff; }
+    .pc .pc-label {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: .65rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      opacity: .7;
+      margin-bottom: 4px;
+    }
+    .pc h4 { color: #fff; font-size: .9rem; margin-bottom: 10px; }
+    .pc ul { list-style: none; margin: 0; padding: 0; }
+    .pc ul li { margin-bottom: 3px; opacity: .88; font-size: .8rem; }
+    .pc ul li::before { content: '▸ '; opacity: .6; }
+
+    /* --- ROI Table --- */
+    .roi-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    .roi-table th {
+      background: var(--green);
+      color: #fff;
+      padding: 12px 16px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: .8rem;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      text-align: left;
+    }
+    .roi-table td { padding: 12px 16px; border-bottom: 1px solid #eee; font-size: .92rem; }
+    .roi-table .big { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--green); }
+    .roi-table tr:last-child td { border-bottom: none; background: #f0fdf4; font-weight: 700; }
+
+    /* --- Big Break-Even Box --- */
+    .breakeven-box {
+      background: var(--green);
+      color: #fff;
+      border-radius: 8px;
+      padding: 28px 32px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .breakeven-box .be-label {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      opacity: .8;
+      margin-bottom: 8px;
+    }
+    .breakeven-box .be-num {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 3rem;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .breakeven-box .be-sub { opacity: .9; font-size: .95rem; }
+
+    /* --- Competitor Cards --- */
+    .comp-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+    .comp-card-r {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 18px 20px;
+    }
+    .comp-card-r .cc-name {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: .95rem;
+      color: var(--slate);
+      margin-bottom: 4px;
+    }
+    .comp-card-r .cc-threat {
+      display: inline-block;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      padding: 2px 9px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .ct-h { background: #fee2e2; color: #991b1b; }
+    .ct-m { background: #fef3c7; color: #92400e; }
+    .ct-l { background: #f0fdf4; color: #14532d; }
+    .comp-card-r .cc-detail { font-size: .82rem; color: #555; line-height: 1.55; }
+    .comp-card-r .cc-wedge {
+      margin-top: 10px;
+      background: #f0fdf4;
+      border-left: 3px solid var(--green);
+      padding: 8px 12px;
+      font-size: .8rem;
+      color: #14532d;
+      font-style: italic;
+      border-radius: 0 4px 4px 0;
+    }
+
+    /* --- LP Variants --- */
+    .lp-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    .lp-card {
+      padding: 24px 20px;
+    }
+    .lp-card:nth-child(1) { background: var(--lgreen); border: 1px solid #bbf7d0; }
+    .lp-card:nth-child(2) { background: #fff5f0; border: 1px solid #fed7aa; border-left: none; border-right: none; }
+    .lp-card:nth-child(3) { background: #f1f5f9; border: 1px solid #cbd5e1; }
+    .lp-card .lp-label {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: .65rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 6px;
+    }
+    .lp-card:nth-child(1) .lp-label { color: var(--green); }
+    .lp-card:nth-child(2) .lp-label { color: var(--terra); }
+    .lp-card:nth-child(3) .lp-label { color: var(--slate); }
+    .lp-card .lp-url {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: .88rem;
+      color: var(--slate);
+      margin-bottom: 12px;
+    }
+    .lp-card ul { list-style: none; margin: 0; padding: 0; }
+    .lp-card ul li { font-size: .82rem; color: #444; margin-bottom: 4px; line-height: 1.5; }
+    .lp-card ul li::before { content: '▸ '; color: #16A34A; }
+
+    /* --- Opportunity Gap Boxes --- */
+    .gap-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin: 20px 0;
+    }
+    .gap-box {
+      background: var(--slate);
+      color: #fff;
+      border-radius: 8px;
+      padding: 18px 16px;
+      text-align: center;
+    }
+    .gap-box .g-icon { font-size: 1.6rem; margin-bottom: 8px; }
+    .gap-box .g-title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: .82rem; text-transform: uppercase; letter-spacing: .5px; color: #86efac; margin-bottom: 6px; }
+    .gap-box .g-body { font-size: .8rem; opacity: .85; line-height: 1.5; }
+
+    /* --- Schema Blocks --- */
+    .schema-block {
+      background: #0f172a;
+      border-radius: 6px;
+      padding: 18px 20px;
+      margin: 14px 0;
+      font-family: 'Courier New', monospace;
+      font-size: .78rem;
+      color: #86efac;
+      line-height: 1.6;
+      overflow-x: auto;
+    }
+
+    /* --- Sticky TOC Nav --- */
+    .sticky-nav-wrapper {
+      position: sticky;
+      top: 0;
+      z-index: 500;
+      background: rgba(255,255,255,.97);
+      border-bottom: 2px solid var(--green);
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+      backdrop-filter: blur(4px);
+    }
+    .sticky-nav {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      overflow-x: auto;
+      gap: 0;
+      scrollbar-width: none;
+    }
+    .sticky-nav::-webkit-scrollbar { display: none; }
+    .sticky-nav a {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      color: #64748b;
+      padding: 12px 14px;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      text-decoration: none;
+      transition: all .2s;
+    }
+    .sticky-nav a:hover { color: var(--green); border-bottom-color: var(--green); }
+
+    /* --- Agent Attribution --- */
+    .agent-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 20px;
+      padding: 3px 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: .72rem;
+      font-weight: 600;
+      color: var(--slate);
+    }
+
+    /* --- Print --- */
+    @media print {
+      .sticky-nav-wrapper { display: none; }
+      .report-section { box-shadow: none; border: 1px solid #eee; }
+      .report-cover { background: var(--slate) !important; }
+    }
+
+    @media (max-width: 680px) {
+      .report-section { padding: 28px 20px; }
+      .toc-grid { grid-template-columns: 1fr; }
+      .angle-panels, .lp-grid { grid-template-columns: 1fr; }
+      .gap-grid { grid-template-columns: 1fr; }
+      .phase-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="report-body">
+
+  <!-- ===== PREVIEW BANNER ===== -->
+  <div class="preview-banner">
+    🌿 Client Deliverable — Confidential | <a href="index.html">← Back to Preview Hub</a>
+  </div>
+
+  <!-- ===== COVER ===== -->
+  <div class="report-cover">
+    <a href="index.html" class="back-link">← Back to Preview Hub</a>
+    <div class="report-badge">Growth Package · $6,000/month</div>
+    <h1>Full Digital Marketing Plan</h1>
+    <p class="client-name">Boerjan's Landscaping &amp; Design</p>
+    <p class="subtitle">San Antonio, TX · Prepared by Backyard Marketing Pros · February 2026</p>
+  </div>
+
+  <!-- ===== META BAR ===== -->
+  <div class="report-meta-bar">
+    <div class="meta-item">📍 <strong>Client:</strong> Brian Boerjan</div>
+    <div class="meta-item">💼 <strong>Package:</strong> Growth — $6,000/mo</div>
+    <div class="meta-item">📅 <strong>Prepared:</strong> February 19, 2026</div>
+    <div class="meta-item">🤖 <strong>Squad:</strong> 18 Specialist Agents</div>
+    <div class="meta-item">✅ <strong>Status:</strong> Steve-Presentable</div>
+  </div>
+
+  <!-- ===== STICKY NAV ===== -->
+  <div class="sticky-nav-wrapper">
+    <nav class="sticky-nav">
+      <a href="#executive-summary">01 · Executive Summary</a>
+      <a href="#situation-analysis">02 · Situation Analysis</a>
+      <a href="#strategy">03 · The Strategy</a>
+      <a href="#website-rebuild">04 · Website Rebuild</a>
+      <a href="#seo-strategy">05 · SEO</a>
+      <a href="#paid-media">06 · Paid Media</a>
+      <a href="#social-strategy">07 · Social Media</a>
+      <a href="#video-strategy">08 · Video Content</a>
+      <a href="#creative">09 · Creative Direction</a>
+      <a href="#analytics">10 · Analytics</a>
+      <a href="#landing-pages">11 · Landing Pages</a>
+      <a href="#onboarding">12 · Onboarding</a>
+      <a href="#roi">13 · ROI &amp; Timeline</a>
+      <a href="#appendix">14 · Appendix</a>
+    </nav>
+  </div>
+
+  <div class="report-container">
+
+    <!-- ===== TABLE OF CONTENTS ===== -->
+    <div class="toc-wrapper">
+      <h2>Table of Contents</h2>
+      <div class="toc-grid">
+        <a href="#executive-summary" class="toc-item"><span class="toc-num">01</span><span class="toc-title">Executive Summary</span></a>
+        <a href="#situation-analysis" class="toc-item"><span class="toc-num">02</span><span class="toc-title">Situation Analysis</span></a>
+        <a href="#strategy" class="toc-item"><span class="toc-num">03</span><span class="toc-title">The Three-Angle Strategy</span></a>
+        <a href="#website-rebuild" class="toc-item"><span class="toc-num">04</span><span class="toc-title">Website Rebuild Plan</span></a>
+        <a href="#seo-strategy" class="toc-item"><span class="toc-num">05</span><span class="toc-title">SEO Strategy &amp; Keyword Map</span></a>
+        <a href="#paid-media" class="toc-item"><span class="toc-num">06</span><span class="toc-title">Paid Media Strategy</span></a>
+        <a href="#social-strategy" class="toc-item"><span class="toc-num">07</span><span class="toc-title">Social Media Strategy</span></a>
+        <a href="#video-strategy" class="toc-item"><span class="toc-num">08</span><span class="toc-title">Video Content Strategy</span></a>
+        <a href="#creative" class="toc-item"><span class="toc-num">09</span><span class="toc-title">Creative Direction &amp; Ad Specs</span></a>
+        <a href="#analytics" class="toc-item"><span class="toc-num">10</span><span class="toc-title">Analytics &amp; Attribution</span></a>
+        <a href="#landing-pages" class="toc-item"><span class="toc-num">11</span><span class="toc-title">Landing Pages (3 Variants)</span></a>
+        <a href="#onboarding" class="toc-item"><span class="toc-num">12</span><span class="toc-title">Client Onboarding</span></a>
+        <a href="#roi" class="toc-item"><span class="toc-num">13</span><span class="toc-title">ROI Projections &amp; Timeline</span></a>
+        <a href="#appendix" class="toc-item toc-appendix"><span class="toc-num">APP</span><span class="toc-title">Appendix — Competitive Intel, Prospect Profiles</span></a>
+      </div>
+    </div>
+
+    <!-- ===================================================
+         01 · EXECUTIVE SUMMARY
+         =================================================== -->
+    <section class="report-section" id="executive-summary">
+      <div class="section-label">Section 01</div>
+      <h2 class="section-title">Executive Summary</h2>
+
+      <dl class="client-card">
+        <dt>Business</dt><dd>Boerjan's Landscaping &amp; Design</dd>
+        <dt>Owner</dt><dd>Brian Boerjan</dd>
+        <dt>Location</dt><dd>San Antonio, TX</dd>
+        <dt>Experience</dt><dd>9+ years | 2,500+ projects | 98% satisfaction</dd>
+        <dt>Services</dt><dd>Sod, Xeriscape, Landscape Design, Garden Beds, Stone Pathways, Pavers, Mulching</dd>
+        <dt>Differentiators</dt><dd>Lyon Financial financing | SAWS rebate eligible | No competitor runs paid ads</dd>
+        <div class="package-pill">📋 Growth Package &nbsp;·&nbsp; <span>$6,000/month · 12-Month Engagement</span></div>
+      </dl>
+
+      <h3>Headline</h3>
+      <div class="info-box green">
+        <p style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#14532d;margin:0;"><em>"9 Years of Excellence. Now the World Knows."</em></p>
+      </div>
+
+      <h3>The Gap We're Closing</h3>
+      <p>Brian Boerjan built a remarkable track record — 2,500+ projects, 98% satisfaction, Lyon Financial partnership, strong reputation across San Antonio. The problem: <strong>none of that is visible online.</strong> A homeowner who Googles "landscaper San Antonio" today can't find what Brian has built. That's the gap we close.</p>
+      <p>The current site runs on GoDaddy Website Builder with no schema, no service pages, no contact form, and the business's best credentials (98% satisfaction / 2,500 projects / 9 years) buried at 85% scroll depth where no one reads them. We rebuild the foundation, then stack every paid and organic channel on top of it.</p>
+
+      <h3>What the Growth Package Delivers</h3>
+      <p>A complete digital marketing system — rebuilt website, local SEO dominance, paid ads on Google + Meta + Nextdoor, organic social, video content, and analytics that prove ROI. Not a campaign. A full-stack marketing operation running on Brian's behalf every month.</p>
+
+      <div class="r-stat-row">
+        <div class="r-stat">
+          <div class="rn">9+</div>
+          <div class="rl">Years Serving San Antonio</div>
+        </div>
+        <div class="r-stat">
+          <div class="rn">2,500+</div>
+          <div class="rl">Completed Projects</div>
+        </div>
+        <div class="r-stat">
+          <div class="rn">98%</div>
+          <div class="rl">Client Satisfaction Rate</div>
+        </div>
+        <div class="r-stat terra">
+          <div class="rn">$0</div>
+          <div class="rl">Competitor Paid Ad Spend (Confirmed)</div>
+        </div>
+        <div class="r-stat slate">
+          <div class="rn">4–10x</div>
+          <div class="rl">Projected Monthly ROI</div>
+        </div>
+        <div class="r-stat">
+          <div class="rn">1</div>
+          <div class="rl">Closed Job/Mo to Break Even on Retainer</div>
+        </div>
+      </div>
+
+      <h3>Three First-Mover Windows (Uncontested Right Now)</h3>
+      <div class="gap-grid">
+        <div class="gap-box">
+          <div class="g-icon">📍</div>
+          <div class="g-title">Nextdoor — Wide Open</div>
+          <div class="g-body">No landscaper is advertising in Alamo Heights, Stone Oak, or Helotes. First paid ad in these neighborhoods = first call.</div>
+        </div>
+        <div class="gap-box">
+          <div class="g-icon">🌵</div>
+          <div class="g-title">Xeriscape Paid Search</div>
+          <div class="g-body">DNS Landscaping owns xeriscape organically but runs ZERO paid ads. $5–9 CPC, completely uncontested in paid channels.</div>
+        </div>
+        <div class="gap-box">
+          <div class="g-icon">🏅</div>
+          <div class="g-title">Google Guaranteed Badge</div>
+          <div class="g-body">First SA landscaper to complete LSA verification gets the trust badge at the top of results. No competitor has it yet.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         02 · SITUATION ANALYSIS
+         =================================================== -->
+    <section class="report-section" id="situation-analysis">
+      <div class="section-label">Section 02</div>
+      <h2 class="section-title">Situation Analysis</h2>
+      <p><span class="agent-tag">🔮 Oracle</span> <span class="agent-tag">🎨 Wong</span> <span class="agent-tag">👁️ Vision</span></p>
+
+      <h3>Current Site Audit — 38/100</h3>
+      <p>Wong's UX audit of boerjanlandscapedesign.com reveals a site that communicates like a brochure rather than a lead-generation machine. The GoDaddy Website Builder limits every SEO and conversion improvement. A full WordPress rebuild is required — not a patch job.</p>
+
+      <table class="report-table">
+        <thead>
+          <tr><th>Category</th><th>Score</th><th>Current Issue</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Above-the-Fold Conversion</td><td style="color:#dc2626;font-weight:700;">3/15</td><td>No phone, no form, vague CTA ("Text Us Today" only)</td></tr>
+          <tr><td>Navigation &amp; Information Architecture</td><td style="color:#f59e0b;font-weight:700;">6/15</td><td>Single-page feel hides service depth</td></tr>
+          <tr><td>Trust Signals</td><td style="color:#f59e0b;font-weight:700;">6/15</td><td>98%/2,500/9 years exist but buried at 85% scroll depth</td></tr>
+          <tr><td>Form / Contact Friction</td><td style="color:#dc2626;font-weight:700;">2/15</td><td><strong>No form at all.</strong> "Text Us" = 40–60% of leads lost</td></tr>
+          <tr><td>Mobile Experience</td><td style="color:#f59e0b;font-weight:700;">10/20</td><td>Clean layout but no sticky CTA, no click-to-call in header</td></tr>
+          <tr><td>Social Proof Placement</td><td style="color:#dc2626;font-weight:700;">4/10</td><td>Stats placed at 80%+ scroll — almost no one sees them</td></tr>
+          <tr><td>Services Architecture</td><td style="color:#f59e0b;font-weight:700;">7/10</td><td>Services listed but no individual service pages for SEO</td></tr>
+          <tr class="highlight"><td><strong>Total</strong></td><td style="font-size:1.1rem;font-weight:800;color:#dc2626;"><strong>38/100</strong></td><td>Full rebuild required. GoDaddy cannot be patched to rank.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Critical Gaps (Fix on Rebuild)</h3>
+      <div class="info-box terra">
+        <strong>🚨 No Contact Form</strong>
+        The single biggest conversion gap. The only CTA on the site is "Text Us Today." No contact form, no phone number in the header, no click-to-call link. We are leaving 40–60% of potential leads with no way to contact Brian.
+      </div>
+      <div class="info-box terra">
+        <strong>🚨 Trust Stats Buried</strong>
+        "98% Client Satisfaction / 2,500 Projects / 9 Years" appear at 85% scroll depth. Less than 5% of visitors see this. These three numbers are Brian's most powerful conversion levers — and they're invisible.
+      </div>
+      <div class="info-box terra">
+        <strong>🚨 Wrong Hero Positioning</strong>
+        Current H1: "Quality Affordable Landscaping: Done Right The First Time." "Affordable" as the lead word attracts price-sensitive buyers and undermines every premium signal Brian has. Fix: "San Antonio's Custom Landscape Design Specialists."
+      </div>
+      <div class="info-box terra">
+        <strong>🚨 Lyon Financial Misspelled</strong>
+        Currently reads "Lion Financial" (misspelling) linking to a sketchy ad URL at 70% scroll depth. This is an uncontested differentiator — no competitor offers financing — and it's hidden with a spelling error.
+      </div>
+
+      <h3>Competitive Landscape — San Antonio Landscaping</h3>
+      <p>Oracle's full competitive scan of the SA landscaping market reveals a fragmented, digitally immature market with independent operators and <strong>no Scorpion/franchise agency cluster detected.</strong> This is fundamentally different from markets like Las Vegas pools — there is no coordinated competitor running agency-grade paid media.</p>
+
+      <div class="comp-cards">
+        <div class="comp-card-r">
+          <div class="cc-name">DNS Landscaping</div>
+          <span class="cc-threat ct-h">High Overlap</span>
+          <div class="cc-detail">Owner: Nadia. Eco/xeriscape positioning. Territory overlaps 100%. A+ BBB. <strong>Zero paid ads confirmed. No Nextdoor advertising.</strong> 815 Facebook likes, low engagement.</div>
+          <div class="cc-wedge">Wedge: Boerjan has financing (Lyon Financial) + paid digital. DNS has neither.</div>
+        </div>
+        <div class="comp-card-r">
+          <div class="cc-name">Grounded Landscaping</div>
+          <span class="cc-threat ct-m">Medium — New</span>
+          <div class="cc-detail">Founded 2025. Covers Stone Oak, Boerne, Alamo Heights, Helotes. Modern website, xeriscape focus. <strong>Brand new — no paid ads, no track record.</strong> No financing.</div>
+          <div class="cc-wedge">Wedge: 9+ years vs. brand new. 2,500+ projects vs. just starting.</div>
+        </div>
+        <div class="comp-card-r">
+          <div class="cc-name">Hole In One Lawns</div>
+          <span class="cc-threat ct-m">Medium — Watch</span>
+          <div class="cc-detail">Founded 2023. 1,076 Facebook likes (highest engagement of all local competitors). Paid design consultation model. Possible ad spend. Most digitally active competitor.</div>
+          <div class="cc-wedge">Wedge: Boerjan offers Lyon Financial financing. Nobody else does.</div>
+        </div>
+        <div class="comp-card-r">
+          <div class="cc-name">Built to Bloom</div>
+          <span class="cc-threat ct-l">Low</span>
+          <div class="cc-detail">Premium design-build firm. Reddit-recommended. Strong word-of-mouth. <strong>Zero paid ads. Pure WOM/organic.</strong> No financing. No paid acquisition.</div>
+          <div class="cc-wedge">Wedge: First in paid channels = first in front of active buyers.</div>
+        </div>
+        <div class="comp-card-r">
+          <div class="cc-name">Cowboy Landscaping</div>
+          <span class="cc-threat ct-l">Low</span>
+          <div class="cc-detail">Family-owned, 20+ years, outdoor living focus. Basic Wix site. No visible paid ads. Likely lower-end market segment.</div>
+          <div class="cc-wedge">Wedge: Superior digital presence immediately upon launch.</div>
+        </div>
+        <div class="comp-card-r">
+          <div class="cc-name">Precise Irrigation &amp; Landscape</div>
+          <span class="cc-threat ct-m">Medium</span>
+          <div class="cc-detail">Strong SEO page structure, "near me" targeting, possible Google Ads. Licensed &amp; insured. Covers Alamo Heights, Stone Oak, Leon Valley. Irrigation-primary.</div>
+          <div class="cc-wedge">Wedge: Boerjan is design-build specialist. Precise does sprinklers.</div>
+        </div>
+      </div>
+
+      <div class="info-box green">
+        <strong>🎯 The Market Verdict</strong>
+        <strong>No competitor is confirmed running Google Ads or Meta paid campaigns.</strong> No landscaper is advertising on Nextdoor in target neighborhoods. Zero competitors have advanced schema markup. Zero offer financing. The competitive window is open <em>right now</em> — and it won't stay that way forever.
+      </div>
+    </section>
+
+    <!-- ===================================================
+         03 · THE STRATEGY
+         =================================================== -->
+    <section class="report-section" id="strategy">
+      <div class="section-label">Section 03</div>
+      <h2 class="section-title">The Three-Angle Strategy</h2>
+      <p><span class="agent-tag">🔮 Wanda</span> <span class="agent-tag">👑 Shuri</span> <span class="agent-tag">🦅 Falcon</span></p>
+
+      <p>Every ad, landing page, and piece of social content maps to one of three creative angles. Each angle owns a different moment in the buyer's journey and targets a specific audience state.</p>
+
+      <div class="angle-panels">
+        <div class="ap">
+          <div class="ap-num">Angle 01</div>
+          <div class="ap-icon">🏡</div>
+          <h4>Neighbor Proof</h4>
+          <p class="ap-hook">"Your neighbor's backyard didn't look like that last year."</p>
+          <p style="font-size:.82rem;opacity:.9;margin-bottom:12px;">Hook: 2,500 projects = 2,500 San Antonio households. The neighborhood-by-neighborhood trust play. Before/after carousels. Neighborhood-specific targeting.</p>
+          <span class="ap-plat">Nextdoor Primary · Meta Secondary</span>
+        </div>
+        <div class="ap">
+          <div class="ap-num">Angle 02</div>
+          <div class="ap-icon">🌵</div>
+          <h4>Xeriscape Smart</h4>
+          <p class="ap-hook">"Love your yard. Not your water bill."</p>
+          <p style="font-size:.82rem;opacity:.9;margin-bottom:12px;">Hook: SAWS rebates + drought anxiety = pre-qualified buyer. Own the angle nobody is running. Educational carousel, xeriscape before/after contrast. SAWS rebate badge.</p>
+          <span class="ap-plat">Meta Cold Audience · Google Xeriscape Campaign</span>
+        </div>
+        <div class="ap">
+          <div class="ap-num">Angle 03</div>
+          <div class="ap-icon">💰</div>
+          <h4>Dream Yard, Financed</h4>
+          <p class="ap-hook">"Stop waiting for 'someday.' Your yard can happen now."</p>
+          <p style="font-size:.82rem;opacity:.9;margin-bottom:12px;">Hook: Lyon Financial partnership = instant objection removal for fence-sitters. Aspirational lifestyle imagery + financing badge overlay. Targets warm retarget audience.</p>
+          <span class="ap-plat">Meta Warm Retarget · Lyon Financial Featured</span>
+        </div>
+      </div>
+
+      <div class="info-box green">
+        <strong>🌵 SAWS Variant D — Deploys When Pepper Confirms at Kickoff</strong>
+        "Get paid to get a beautiful yard — SAWS rebate available." Nextdoor + Meta. Searchers who already know about SAWS rebates have removed the price objection entirely. Highest-intent, highest-close-rate segment in the market.
+      </div>
+
+      <h3>Messaging Foundations</h3>
+      <p>All copy for Boerjan's follows these rules established by Wanda:</p>
+      <ul>
+        <li><strong>Benefit-first, not feature-first</strong> — "2,500+ transformed yards" not "we offer landscaping services"</li>
+        <li><strong>Specific social proof always</strong> — 2,500+ projects, 9 years, 98% satisfaction (numbers, not adjectives)</li>
+        <li><strong>Lyon Financial always credited by name</strong> — not "financing available" but "Lyon Financial" (specific, trust-building)</li>
+        <li><strong>Never lead with "Affordable"</strong> — attracts price shoppers, undermines premium positioning (Wong's UX flag)</li>
+        <li><strong>SAWS rebate framing</strong> — "Get paid to get a beautiful yard" outperforms generic savings language</li>
+        <li><strong>CTAs are low-commitment first</strong> — "See what's possible" before hard asks</li>
+      </ul>
+    </section>
+
+    <!-- ===================================================
+         04 · WEBSITE REBUILD
+         =================================================== -->
+    <section class="report-section" id="website-rebuild">
+      <div class="section-label">Section 04</div>
+      <h2 class="section-title">Website Rebuild Plan</h2>
+      <p><span class="agent-tag">🚀 Rocket</span> <span class="agent-tag">🎨 Wong</span> <span class="agent-tag">🏗️ Banner</span></p>
+
+      <p>The GoDaddy Website Builder cannot support the SEO infrastructure required. A full migration to <strong>WordPress + Elementor</strong> is required on Day 1 of Month 1. This is not optional — without the rebuild, every other channel underperforms.</p>
+
+      <h3>WordPress Tech Stack</h3>
+      <table class="report-table">
+        <thead>
+          <tr><th>Component</th><th>Tool</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Theme</td><td>Kadence / GeneratePress</td><td>Lightweight, fast, Elementor-compatible</td></tr>
+          <tr><td>Page Builder</td><td>Elementor</td><td>Page construction + template consistency</td></tr>
+          <tr><td>SEO Plugin</td><td>Yoast SEO Pro</td><td>Meta, schema, sitemap</td></tr>
+          <tr><td>Performance</td><td>WP Rocket</td><td>Caching, CDN, image optimization</td></tr>
+          <tr><td>Forms</td><td>WPForms (not CF7)</td><td>Better mobile keyboard UX than Contact Form 7</td></tr>
+          <tr><td>Images</td><td>ShortPixel</td><td>WebP conversion + lazy load</td></tr>
+          <tr><td>Schema</td><td>Manual JSON-LD in &lt;head&gt;</td><td>Full control over advanced schema types</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Full Site Architecture</h3>
+      <div style="background:#0f172a;border-radius:8px;padding:20px 24px;font-family:'Courier New',monospace;font-size:.8rem;color:#86efac;line-height:1.8;margin:16px 0;overflow-x:auto;">
+boerjanlandscapedesign.com/<br>
+│<br>
+├── / (Homepage — Priority 1)<br>
+│<br>
+├── /services/ (Hub → all service pages)<br>
+│   ├── /sod-installation-san-antonio/ ← P1 (480/mo, low diff)<br>
+│   ├── /xeriscape-landscaping-san-antonio/ ← P1 (590/mo, zero competition)<br>
+│   ├── /landscape-design-san-antonio/ ← P1 (720/mo)<br>
+│   ├── /garden-bed-plant-installation-san-antonio/ ← P2<br>
+│   ├── /paver-stone-pathway-installation-san-antonio/ ← P2<br>
+│   └── /mulching-ground-cover-san-antonio/ ← P3<br>
+│<br>
+├── /financing/ (Lyon Financial — Day 1, fixes "Lion Financial" bug)<br>
+│<br>
+├── /service-area/ (Neighborhood Hub)<br>
+│   ├── /landscaping-stone-oak-san-antonio/<br>
+│   ├── /landscaping-helotes-san-antonio/<br>
+│   ├── /landscaping-alamo-heights-san-antonio/<br>
+│   ├── /landscaping-boerne/<br>
+│   └── /landscaping-schertz/<br>
+│<br>
+├── /portfolio/ (Before/After Gallery — P2)<br>
+├── /about/ (Brian's story — P2)<br>
+├── /blog/ (Content Hub — real posts, not hello-world)<br>
+│   ├── /how-much-does-landscaping-cost-san-antonio/ ← Priority 1<br>
+│   ├── /xeriscape-vs-traditional-lawn-san-antonio/ ← Priority 1<br>
+│   └── /best-grass-san-antonio/ ← Priority 2<br>
+│<br>
+└── /contact/ (Critical — currently missing entirely)
+      </div>
+
+      <h3>Page Build Priority &amp; Timeline</h3>
+      <table class="report-table">
+        <thead>
+          <tr><th>Page</th><th>Priority</th><th>Week</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Homepage</td><td style="color:#dc2626;font-weight:700;">🔴 P1</td><td>1</td><td>Foundation — trust bar above fold</td></tr>
+          <tr><td>/contact/</td><td style="color:#dc2626;font-weight:700;">🔴 P1</td><td>1</td><td>First form on site — currently zero conversion path</td></tr>
+          <tr><td>/financing/</td><td style="color:#dc2626;font-weight:700;">🔴 P1</td><td>1</td><td>Fixes "Lion Financial" bug, dedicated Lyon Financial page</td></tr>
+          <tr><td>/sod-installation-san-antonio/</td><td style="color:#dc2626;font-weight:700;">🔴 P1</td><td>1–2</td><td>480/mo, low competition</td></tr>
+          <tr><td>/xeriscape-landscaping-san-antonio/</td><td style="color:#dc2626;font-weight:700;">🔴 P1</td><td>1–2</td><td>SAWS rebate page — highest intent buyers</td></tr>
+          <tr><td>/landscape-design-san-antonio/</td><td style="color:#dc2626;font-weight:700;">🔴 P1</td><td>1–2</td><td>720/mo, Angle 3 (Dream Yard) landing page</td></tr>
+          <tr><td>/how-much-does-landscaping-cost-san-antonio/</td><td style="color:#dc2626;font-weight:700;">🔴 P1</td><td>2</td><td>Highest converting blog post</td></tr>
+          <tr><td>Neighborhood pages (Stone Oak, Helotes)</td><td style="color:#f59e0b;font-weight:700;">🟡 P2</td><td>2–3</td><td>Core target zips</td></tr>
+          <tr><td>/portfolio/</td><td style="color:#f59e0b;font-weight:700;">🟡 P2</td><td>2</td><td>Before/after gallery — needs Brian's photo archive</td></tr>
+          <tr><td>Remaining neighborhood pages</td><td style="color:#16A34A;font-weight:700;">🟢 P3</td><td>3–4</td><td>Alamo Heights, Boerne, Schertz</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Homepage Wireframe (Key Sections)</h3>
+      <p>The homepage is engineered around Wong's UX audit findings — trust signals above fold, click-to-call in header, 4-field lead form before footer:</p>
+      <ol>
+        <li><strong>Sticky Header</strong> — Logo + Nav + Phone number (click-to-call, always visible)</li>
+        <li><strong>Hero</strong> — "San Antonio's Landscaping Experts — Free Estimates, 9+ Years" + dual CTA</li>
+        <li><strong>Trust Bar (immediately below hero)</strong> — "9 Years · 2,500+ Projects · 98% Satisfied · Lyon Financial Financing Available"</li>
+        <li><strong>Services Grid</strong> — 6 tiles linking to individual service pages</li>
+        <li><strong>Before/After Showcase</strong> — touch-friendly slider with neighborhood labels</li>
+        <li><strong>Social Proof (middle of page, NOT bottom)</strong> — Google reviews + testimonial cards</li>
+        <li><strong>Financing Section</strong> — Lyon Financial badge above fold, not buried at 70% scroll</li>
+        <li><strong>3-Step Process</strong> — HowTo schema-ready, each step links to a service page</li>
+        <li><strong>FAQ Accordion</strong> — FAQPage schema for featured snippet eligibility</li>
+        <li><strong>Lead Form (4 fields)</strong> — Phone → Name → Service Type → Zip + Terra Cotta CTA button</li>
+        <li><strong>Sticky Footer (mobile)</strong> — 📞 Call + "Get Free Quote" always visible</li>
+      </ol>
+    </section>
+
+    <!-- ===================================================
+         05 · SEO STRATEGY
+         =================================================== -->
+    <section class="report-section" id="seo-strategy">
+      <div class="section-label">Section 05</div>
+      <h2 class="section-title">SEO Strategy &amp; Keyword Map</h2>
+      <p><span class="agent-tag">👁️ Vision</span> <span class="agent-tag">🏗️ Banner</span></p>
+      <p>Vision's comprehensive keyword research reveals <strong>massive organic opportunity</strong> in San Antonio landscaping. Zero competitors have advanced schema. The site is currently not indexed for any target keywords. A properly built WordPress site with Brian's credibility signals can rank in 90–120 days.</p>
+
+      <div class="info-box green">
+        <strong>📊 Organic Traffic Potential at Full Build-Out</strong>
+        800–1,500 monthly visits → 15–25 qualified leads/month. Break-even on SEO investment comes from organic leads alone within Month 3–4.
+      </div>
+
+      <h3>Tier 1: Primary Money Keywords</h3>
+      <div class="kw-tier">
+        <div class="kw-tier-header">🏆 Tier 1 — Homepage Targets <span class="kw-badge">High Volume · High Intent</span></div>
+        <div class="kw-rows">
+          <div class="kw-row header"><span class="kw">Keyword</span><span class="vol">Monthly Vol</span><span class="diff">Difficulty</span><span class="intent">Intent</span></div>
+          <div class="kw-row"><span class="kw">landscaping companies san antonio</span><span class="vol">1,900</span><span class="diff">Medium</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">landscaping san antonio</span><span class="vol">1,600</span><span class="diff">Medium</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">landscaper san antonio</span><span class="vol">1,300</span><span class="diff">Medium</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">landscape design san antonio</span><span class="vol">720</span><span class="diff">Medium</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">best landscapers in san antonio</span><span class="vol">390</span><span class="diff">Low</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">affordable landscaping san antonio</span><span class="vol">260</span><span class="diff">Low</span><span class="intent">Commercial</span></div>
+        </div>
+      </div>
+
+      <h3>Tier 2: Service-Specific Keywords</h3>
+      <div class="kw-tier">
+        <div class="kw-tier-header">🌿 Tier 2 — Individual Service Pages <span class="kw-badge">High Conversion</span></div>
+        <div class="kw-rows">
+          <div class="kw-row header"><span class="kw">Keyword</span><span class="vol">Monthly Vol</span><span class="diff">Difficulty</span><span class="intent">Intent</span></div>
+          <div class="kw-row"><span class="kw">xeriscape san antonio</span><span class="vol" style="color:#C2410C;font-weight:700;">590</span><span class="diff">Low</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">sod installation san antonio</span><span class="vol">480</span><span class="diff">Low</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">paver installation san antonio</span><span class="vol">390</span><span class="diff">Low</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">drought tolerant landscaping san antonio</span><span class="vol">260</span><span class="diff">Very Low</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">hardscaping san antonio</span><span class="vol">320</span><span class="diff">Low</span><span class="intent">Commercial</span></div>
+          <div class="kw-row"><span class="kw">saws rebate landscaping</span><span class="vol" style="color:#C2410C;font-weight:700;">110</span><span class="diff">Very Low</span><span class="intent" style="background:#fff5f0;color:#9a3412;">BUYER</span></div>
+          <div class="kw-row"><span class="kw">garden bed installation san antonio</span><span class="vol">90</span><span class="diff">Very Low</span><span class="intent">Commercial</span></div>
+        </div>
+      </div>
+
+      <div class="info-box terra">
+        <strong>🌵 Xeriscape is the Sleeper Hit</strong>
+        "Xeriscape san antonio" — 590 monthly searches, Low difficulty, and DNS Landscaping (the main xeriscape competitor) runs ZERO paid ads. This keyword is available organically AND in paid search simultaneously. Vision recommends making this the first service page built.
+      </div>
+
+      <h3>Tier 3: Neighborhood Keywords (Highest Conversion Rate)</h3>
+      <p>Lower volume individually but 3–5x conversion rate vs. generic terms. Priority build order: <strong>Stone Oak → Helotes → Alamo Heights → Boerne → Schertz.</strong></p>
+      <table class="report-table">
+        <thead><tr><th>Neighborhood Page</th><th>Est. Monthly Volume</th><th>Why Priority</th></tr></thead>
+        <tbody>
+          <tr><td>/landscaping-stone-oak-san-antonio/</td><td>~170/mo</td><td>High-income, new construction, high landscape spend</td></tr>
+          <tr><td>/landscaping-helotes-san-antonio/</td><td>~90/mo</td><td>Suburban growth area, large lots</td></tr>
+          <tr><td>/landscaping-alamo-heights-san-antonio/</td><td>~110/mo</td><td>Affluent established neighborhood, renovation projects</td></tr>
+          <tr><td>/landscaping-boerne/</td><td>~80/mo</td><td>Adjacent market, expanding suburbs</td></tr>
+          <tr><td>/landscaping-schertz/</td><td>~70/mo</td><td>Growing suburban corridor</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Schema Markup Plan — First-Mover Advantage</h3>
+      <p>Oracle confirmed: <strong>zero competitors in SA landscaping have any advanced schema markup.</strong> Every schema type Vision deploys makes Boerjan's the only landscaper in the city with rich results on Day 1.</p>
+      <table class="report-table">
+        <thead><tr><th>Priority</th><th>Schema Type</th><th>Page</th><th>Timing</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>LandscapingBusiness</td><td>Homepage</td><td>Day 1</td></tr>
+          <tr><td>2</td><td>HowTo (3-step process)</td><td>Homepage</td><td>Day 1</td></tr>
+          <tr><td>3</td><td>HowTo (sod-specific)</td><td>Sod service page</td><td>Week 1</td></tr>
+          <tr><td>4</td><td>Offer (SAWS rebate)</td><td>Xeriscape page</td><td>Week 1–2 (after Pepper confirms)</td></tr>
+          <tr><td>5</td><td>FAQPage</td><td>Each service page</td><td>As built</td></tr>
+          <tr><td>6</td><td>Service</td><td>Each service page</td><td>As built</td></tr>
+          <tr><td>7</td><td>BreadcrumbList</td><td>All pages</td><td>As built</td></tr>
+          <tr><td>8</td><td>LandscapeFeature</td><td>Portfolio pages</td><td>Month 1–2</td></tr>
+          <tr><td>9</td><td>Review</td><td>Portfolio/testimonials</td><td>After review campaign hits 50+</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Blog Content Strategy</h3>
+      <p>Three high-priority blog posts briefed by Vision and ready for Echo to write:</p>
+      <ul>
+        <li><strong>Post 1:</strong> "How Much Does Landscaping Cost in San Antonio?" — 320/mo, highest converting informational, FAQPage schema target</li>
+        <li><strong>Post 2:</strong> "Xeriscape vs. Traditional Lawn: What San Antonio Homeowners Need to Know" — SAWS rebate hook, educational mid-funnel</li>
+        <li><strong>Post 3:</strong> "Best Grass for San Antonio: Sod Selection Guide" — 390/mo, pre-purchase research, drives sod service page leads</li>
+      </ul>
+
+      <h3>GBP Optimization (Heimdall)</h3>
+      <ul>
+        <li><strong>Primary category:</strong> "Landscaping Service" (NOT "Lawn Care Service")</li>
+        <li><strong>Secondary categories:</strong> "Landscape Designer," "Hardscape Contractor," "Sod Supplier"</li>
+        <li><strong>Photos:</strong> 25–30 before/after pairs minimum (each = local SEO signal)</li>
+        <li><strong>Posts:</strong> Weekly minimum — project reveals, xeriscape tips, SAWS reminders</li>
+        <li><strong>Review goal:</strong> 50+ reviews in 90 days (activating Brian's 2,500-project customer base)</li>
+      </ul>
+    </section>
+
+    <!-- ===================================================
+         06 · PAID MEDIA
+         =================================================== -->
+    <section class="report-section" id="paid-media">
+      <div class="section-label">Section 06</div>
+      <h2 class="section-title">Paid Media Strategy</h2>
+      <p><span class="agent-tag">🎯 Hawkeye</span> <span class="agent-tag">🦅 Falcon</span> <span class="agent-tag">🔮 Wanda</span></p>
+
+      <h3>Google Ads — 4 Campaigns</h3>
+      <table class="report-table">
+        <thead><tr><th>Campaign</th><th>Monthly Budget</th><th>tCPA Target</th><th>Keywords</th></tr></thead>
+        <tbody>
+          <tr><td>Campaign 1: Core Landscaping Search</td><td>$800–1,000</td><td>$200 → $150</td><td>landscaping san antonio, landscape design, sod installation</td></tr>
+          <tr><td>Campaign 2: Xeriscape Dedicated</td><td>$300–400</td><td>$175</td><td>xeriscape san antonio, SAWS rebate, drought tolerant landscaping</td></tr>
+          <tr><td>Campaign 3: Branded Protection</td><td>$200–300</td><td>n/a</td><td>boerjan's landscaping, boerjan landscaping</td></tr>
+          <tr><td>Campaign 4: LSA / Google Guaranteed</td><td>Pay-per-lead</td><td>n/a</td><td>Pending insurance certificate</td></tr>
+          <tr class="highlight"><td><strong>Total Google Budget</strong></td><td><strong>$1,300–1,700/mo</strong></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+
+      <div class="info-box green">
+        <strong>⚡ Why Xeriscape Gets Its Own Campaign</strong>
+        $5–9 CPC (extremely low). No confirmed competitors bidding. High conversion because SAWS rebates remove the price objection. Hawkeye recommends aggressive bidding on exact match — this is free money until a competitor wakes up.
+      </div>
+
+      <h4>Sample RSA Headlines (30 chars max) — Xeriscape Campaign</h4>
+      <p style="font-size:.85rem;color:#555;">From Wanda's full copy package — 15 headlines per ad group, verified under character limits:</p>
+      <ul style="columns:2;column-gap:32px;">
+        <li>Xeriscape San Antonio ✓</li>
+        <li>Save Water + Love Your Yard ✓</li>
+        <li>SAWS Rebate Eligible ✓</li>
+        <li>Drought-Smart Landscaping ✓</li>
+        <li>Cut Your Water Bill 40% ✓</li>
+        <li>Xeriscape Specialists SA ✓</li>
+        <li>Stop Fighting TX Summers ✓</li>
+        <li>Free Xeriscape Consult ✓</li>
+      </ul>
+
+      <h3>Meta Ads — 3 Campaigns</h3>
+      <table class="report-table">
+        <thead><tr><th>Campaign</th><th>Monthly Budget</th><th>Angle</th><th>Audience</th></tr></thead>
+        <tbody>
+          <tr><td>Neighbor Proof (Always-On)</td><td>~$400</td><td>Before/after carousel</td><td>SA cold — homeowners 35–65, $100K+ HHI</td></tr>
+          <tr><td>Xeriscape Smart (Cold)</td><td>~$350</td><td>Educational + SAWS badge</td><td>SA cold — home improvement interest, drought aware</td></tr>
+          <tr><td>Dream Yard Financed (Warm Retarget)</td><td>~$250</td><td>Aspirational + Lyon Financial</td><td>Warm retarget — site visitors, engaged users</td></tr>
+          <tr class="highlight"><td><strong>Total Meta Budget</strong></td><td><strong>~$1,000/mo</strong></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+
+      <h3>Nextdoor — First-Mover Campaign</h3>
+      <p><strong>Budget: $600–800/month.</strong> Launch zips: Stone Oak, Alamo Heights, Helotes. Running A/B test from Day 1:</p>
+      <table class="report-table">
+        <thead><tr><th>Variant</th><th>Headline</th><th>Angle</th></tr></thead>
+        <tbody>
+          <tr><td>Variant A (Primary)</td><td>"Your Neighbors Chose Boerjan's — Here's Why"</td><td>Neighbor Proof — before/after</td></tr>
+          <tr><td>Variant B (Test)</td><td>"San Antonio Yards Designed for Texas Summers"</td><td>Xeriscape Smart — water bill angle</td></tr>
+          <tr><td>Variant C (Contingency)</td><td>"See What Your Neighbor Just Did to Their Yard"</td><td>Visual curiosity</td></tr>
+          <tr><td>Variant D (Pending Kickoff)</td><td>"SAWS Rebate Available — Get Paid for a Beautiful Yard"</td><td>SAWS rebate — highest intent</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Total Recommended Media Budget</h3>
+      <div class="r-stat-row">
+        <div class="r-stat">
+          <div class="rn">$1,300–1,700</div>
+          <div class="rl">Google Ads / month</div>
+        </div>
+        <div class="r-stat terra">
+          <div class="rn">~$1,000</div>
+          <div class="rl">Meta Ads / month</div>
+        </div>
+        <div class="r-stat slate">
+          <div class="rn">$600–800</div>
+          <div class="rl">Nextdoor / month</div>
+        </div>
+        <div class="r-stat">
+          <div class="rn">$2,900–3,500</div>
+          <div class="rl">Total Recommended Media / month</div>
+        </div>
+      </div>
+      <p style="font-size:.84rem;color:#64748b;"><em>Media budget is separate from the $6,000/month retainer. Retainer covers strategy, creative, management. Media budget goes directly to platforms.</em></p>
+    </section>
+
+    <!-- ===================================================
+         07 · SOCIAL MEDIA
+         =================================================== -->
+    <section class="report-section" id="social-strategy">
+      <div class="section-label">Section 07</div>
+      <h2 class="section-title">Social Media Strategy</h2>
+      <p><span class="agent-tag">🦋 Mantis</span> <span class="agent-tag">🔮 Wanda</span> <span class="agent-tag">🌱 Groot</span></p>
+
+      <h3>Platform Cadence</h3>
+      <table class="report-table">
+        <thead><tr><th>Platform</th><th>Frequency</th><th>Format</th><th>Primary Angle</th></tr></thead>
+        <tbody>
+          <tr><td>Instagram</td><td>3x/week (Mon/Wed/Fri)</td><td>Grid + Stories + Reels</td><td>Visual transformation, xeriscape education</td></tr>
+          <tr><td>Facebook</td><td>3x/week (Tue/Thu/Sat)</td><td>Posts + Community groups</td><td>Neighborhood trust, financing, social proof</td></tr>
+          <tr><td>TikTok</td><td>5–7 videos/week</td><td>Vertical 9:16, 30–60s</td><td>Before/after, xeriscape POV, paver reveal</td></tr>
+          <tr><td>YouTube Shorts</td><td>1–2/week (Weeks 3–4)</td><td>Repurposed TikTok content</td><td>Cross-platform stagger</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:.84rem;color:#64748b;"><em>Cross-platform stagger: TikTok Day 1 → Reels Day 2 → FB Reels Day 3 → Shorts Day 4</em></p>
+
+      <h3>4-Week Content Calendar Overview</h3>
+      <div class="phase-row">
+        <div class="pc">
+          <div class="pc-label">Week 1</div>
+          <h4>Introduce the Brand</h4>
+          <ul>
+            <li>Hero Video: Script 1 "Texas Yard Glow-Up"</li>
+            <li>9 years / 2,500+ projects intro posts</li>
+            <li>Before/after reveal (Friday post)</li>
+            <li>Story poll: "Lush Green vs. Xeriscape"</li>
+          </ul>
+        </div>
+        <div class="pc">
+          <div class="pc-label">Week 2</div>
+          <h4>Xeriscape Education</h4>
+          <ul>
+            <li>Hero Video: Script 2 "Xeriscape POV"</li>
+            <li>Water bill savings carousel (5 slides)</li>
+            <li>SAWS rebate Story (pending confirm)</li>
+            <li>Educational carousel: "5 signs you need xeriscape"</li>
+          </ul>
+        </div>
+        <div class="pc">
+          <div class="pc-label">Week 3</div>
+          <h4>Social Proof + Financing</h4>
+          <ul>
+            <li>Hero Video: Script 3 "Paver Reveal"</li>
+            <li>Lyon Financial $0 down TikTok hook</li>
+            <li>Client testimonial (quote card)</li>
+            <li>Brian owner feature video</li>
+          </ul>
+        </div>
+        <div class="pc">
+          <div class="pc-label">Week 4</div>
+          <h4>Community + Conversion</h4>
+          <ul>
+            <li>Neighbor Proof campaign: Alamo Heights, Stone Oak</li>
+            <li>Month 1 recap carousel</li>
+            <li>UGC prompt: "Tag us in your reveal"</li>
+            <li>Final CTA: "Let's GO" comment prompt</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>TikTok Health Thresholds (Falcon Protocol)</h3>
+      <table class="report-table">
+        <thead><tr><th>Metric</th><th>Target</th><th>Action if Below</th></tr></thead>
+        <tbody>
+          <tr><td>3-second view rate</td><td>&gt;40%</td><td>Hook problem — rewrite opening text overlay</td></tr>
+          <tr><td>Average watch %</td><td>&gt;55%</td><td>Pacing issue — tighten middle section</td></tr>
+          <tr><td>Share rate</td><td>&gt;1.5%</td><td>Concept mismatch — try new angle</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:.84rem;color:#64748b;"><em>48h after Script 1 TikTok launch → Mantis reports metrics to Falcon → if thresholds met, Falcon launches Spark Ads from organic winner.</em></p>
+    </section>
+
+    <!-- ===================================================
+         08 · VIDEO CONTENT
+         =================================================== -->
+    <section class="report-section" id="video-strategy">
+      <div class="section-label">Section 08</div>
+      <h2 class="section-title">Video Content Strategy</h2>
+      <p><span class="agent-tag">🌱 Groot</span> <span class="agent-tag">🦋 Mantis</span></p>
+
+      <p>Groot has scripted 5 short-form video concepts for TikTok → Reels → YouTube Shorts. No local SA landscaping competitor has video content. <strong>First-mover video advantage is available today.</strong></p>
+
+      <table class="report-table">
+        <thead><tr><th>Priority</th><th>Script</th><th>Type</th><th>Hook</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Texas Yard Glow-Up</td><td>Before/After Transformation</td><td>"POV: Your San Antonio yard was embarrassing you 🫣"</td><td style="color:#16A34A;font-weight:700;">✅ Launch-Ready</td></tr>
+          <tr><td>2</td><td>Xeriscape POV</td><td>Education/Transformation</td><td>"POV: Your yard just stopped fighting Texas summers ☀️"</td><td style="color:#16A34A;font-weight:700;">✅ Launch-Ready</td></tr>
+          <tr><td>3</td><td>Paver Reveal</td><td>ASMR/Process (satisfying content)</td><td>"Satisfying 🪨 paver install San Antonio style"</td><td style="color:#16A34A;font-weight:700;">✅ Launch-Ready</td></tr>
+          <tr><td>4</td><td>Homeowner Reacts</td><td>Social Proof/Testimonial</td><td>"Real San Antonio homeowner. Real reaction. 😮"</td><td style="color:#f59e0b;font-weight:700;">⏳ Needs Client Footage</td></tr>
+          <tr><td>5</td><td>Price Reveal</td><td>Lead Qualification</td><td>"How much does a San Antonio landscape makeover cost? 👀"</td><td style="color:#f59e0b;font-weight:700;">⏳ Needs Brian's Starting Price</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Cross-Platform Posting Stagger</h3>
+      <p>Each video posts sequentially to maximize reach without algorithmic cannibalization:</p>
+      <ul>
+        <li><strong>Day 1:</strong> TikTok (primary — organic discovery)</li>
+        <li><strong>Day 2:</strong> Instagram Reels (repost)</li>
+        <li><strong>Day 3:</strong> Facebook Reels (repost)</li>
+        <li><strong>Day 4:</strong> YouTube Shorts (repost)</li>
+      </ul>
+
+      <h3>B-Roll Wishlist (Priority Request at Kickoff)</h3>
+      <ul>
+        <li>Before/after job photos or video clips from any past projects</li>
+        <li>Job site footage — crew arriving, installation in progress</li>
+        <li>Xeriscape install footage specifically</li>
+        <li>Happy client reactions on completion day</li>
+        <li>Paver/stone installation close-up footage (satisfying content = organic reach)</li>
+      </ul>
+      <p style="font-size:.84rem;color:#64748b;"><em>Stock footage approved as placeholder for Scripts 1–3. Scripts 4–5 gated until client footage and Brian's pricing are confirmed at kickoff.</em></p>
+    </section>
+
+    <!-- ===================================================
+         09 · CREATIVE DIRECTION
+         =================================================== -->
+    <section class="report-section" id="creative">
+      <div class="section-label">Section 09</div>
+      <h2 class="section-title">Creative Direction &amp; Ad Specs</h2>
+      <p><span class="agent-tag">👑 Shuri</span></p>
+
+      <h3>Brand Foundation</h3>
+      <table class="report-table">
+        <thead><tr><th>Element</th><th>Spec</th></tr></thead>
+        <tbody>
+          <tr><td>Primary Color</td><td><strong style="color:#16A34A;">Rich Grass Green #16A34A</strong> — lawn, life, growth</td></tr>
+          <tr><td>Accent Color</td><td><strong style="color:#C2410C;">Terra Cotta #C2410C</strong> — Texas earth, stone, warmth (CTA buttons)</td></tr>
+          <tr><td>Dark Color</td><td><strong style="color:#1E293B;">Stone Slate #1E293B</strong> — professionalism, trust</td></tr>
+          <tr><td>Support</td><td>Xeriscape Tan #D97706 · White #FAFAFA · Light Green #F0FDF4</td></tr>
+          <tr><td>Headlines</td><td>Montserrat Bold / Black (36–48pt)</td></tr>
+          <tr><td>Body</td><td>Inter Regular (14–16pt)</td></tr>
+          <tr><td>Data Callouts</td><td>Montserrat ExtraBold — numbers should be BIG</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Trust Badge Elements (Required on ALL Creatives)</h3>
+      <ul>
+        <li>"9+ Years San Antonio"</li>
+        <li>"2,500+ Projects"</li>
+        <li>"98% Satisfaction"</li>
+        <li>"Licensed &amp; Insured"</li>
+        <li>Lyon Financial badge: "Financing Available — Apply in Minutes"</li>
+        <li>SAWS badge: "SAWS Rebate Eligible" (on xeriscape ads only, pending kickoff confirm)</li>
+      </ul>
+
+      <h3>Ad Creative Specs by Platform</h3>
+      <table class="report-table">
+        <thead><tr><th>Platform / Format</th><th>Dimensions</th><th>Angle</th></tr></thead>
+        <tbody>
+          <tr><td>Nextdoor Static Ad</td><td>1200×628px or 1080×1080px</td><td>Neighbor Proof — before/after split with terra cotta strip</td></tr>
+          <tr><td>Meta Carousel (6 cards)</td><td>1080×1080px per card</td><td>Neighbor Proof — 5 project reveals + CTA card</td></tr>
+          <tr><td>Meta Single Image — Xeriscape</td><td>1080×1080px</td><td>Xeriscape Smart — side-by-side with SAWS badge</td></tr>
+          <tr><td>Meta Educational Carousel</td><td>1080×1080px per card</td><td>Xeriscape Smart — 5 education cards</td></tr>
+          <tr><td>Meta Retarget Single</td><td>1080×1080px or 1080×1350px</td><td>Dream Yard Financed — Lyon Financial badge</td></tr>
+          <tr><td>Meta Story / Reel Cover</td><td>1080×1920px</td><td>Dream Yard — aspirational image + green panel</td></tr>
+          <tr><td>TikTok / Reels</td><td>1080×1920px (9:16)</td><td>Groot's scripts — safe zones: top 150px + bottom 440px clear</td></tr>
+          <tr><td>Google Responsive Display</td><td>1200×628px hero + 1200×1200px square</td><td>Xeriscape + Neighbor Proof variants</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ===================================================
+         10 · ANALYTICS
+         =================================================== -->
+    <section class="report-section" id="analytics">
+      <div class="section-label">Section 10</div>
+      <h2 class="section-title">Analytics &amp; Attribution</h2>
+      <p><span class="agent-tag">😊 Happy</span> <span class="agent-tag">🏗️ Banner</span></p>
+
+      <h3>Full Analytics Stack</h3>
+      <table class="report-table">
+        <thead><tr><th>Tool</th><th>Purpose</th><th>Owner</th></tr></thead>
+        <tbody>
+          <tr><td>Google Analytics 4 (GA4)</td><td>All site traffic, conversions, custom dimensions</td><td>Happy</td></tr>
+          <tr><td>Google Tag Manager (GTM)</td><td>Tag deployment without developer access needed</td><td>Happy + Banner</td></tr>
+          <tr><td>CallRail (3 pools)</td><td>Phone call attribution by channel</td><td>Happy</td></tr>
+          <tr><td>Meta Pixel</td><td>Meta ad attribution, remarketing audiences</td><td>Falcon + Happy</td></tr>
+          <tr><td>Google Ads Tag</td><td>Google conversion tracking</td><td>Hawkeye + Happy</td></tr>
+          <tr><td>Looker Studio Dashboard</td><td>Monthly client reporting dashboard</td><td>Happy</td></tr>
+        </tbody>
+      </table>
+
+      <h3>CallRail — 3-Pool Architecture</h3>
+      <table class="report-table">
+        <thead><tr><th>Pool</th><th>Tracks</th><th>Placement</th></tr></thead>
+        <tbody>
+          <tr><td>Pool 1 — Google</td><td>Calls from Google Ads campaigns</td><td>/san-antonio-landscaping/ LP header, Google Ads DNI</td></tr>          <tr><td>Pool 2 — Social/Nextdoor</td><td>Calls from Meta + Nextdoor campaigns</td><td>/backyard-san-antonio/ + /san-antonio-neighbors/ LPs</td></tr>
+          <tr><td>Pool 3 — Organic</td><td>Calls from organic search + GBP</td><td>Main site header (Dynamic Number Insertion)</td></tr>
+        </tbody>
+      </table>
+
+      <h3>GA4 Custom Dimensions</h3>
+      <ul>
+        <li><strong>service_type</strong> — Sod / Xeriscape / Landscape Design / Garden Beds / Pavers / Not Sure</li>
+        <li><strong>traffic_source</strong> — Google Paid / Meta / Nextdoor / Organic / GBP</li>
+        <li><strong>conversion_type</strong> — Form Submit / Phone Call / Text Click</li>
+        <li><strong>intent_type</strong> — xeriscape / renovation / new_install / awareness (from LP social tile selection)</li>
+        <li><strong>angle_variant</strong> — Tracks which Nextdoor variant (A/B) is converting</li>
+      </ul>
+
+      <h3>Reporting Cadence</h3>
+      <ul>
+        <li><strong>Weekly:</strong> Leads + spend summary, CPL by channel</li>
+        <li><strong>Monthly:</strong> Full attribution report — calls, forms, cost-per-lead by platform</li>
+        <li><strong>Quarterly:</strong> ROI review — leads → booked jobs → revenue attribution</li>
+      </ul>
+
+      <div class="info-box green">
+        <strong>📊 NAP Architecture (Heimdall)</strong>
+        Footer NAP on all pages uses Brian's direct phone number (matches GBP exactly). CallRail DNI numbers appear only in page headers for tracking. Google Local Pack ranking depends on consistent NAP across site, GBP, and all citation directories.
+      </div>
+    </section>
+
+    <!-- ===================================================
+         11 · LANDING PAGES
+         =================================================== -->
+    <section class="report-section" id="landing-pages">
+      <div class="section-label">Section 11</div>
+      <h2 class="section-title">Landing Pages — 3 Variants</h2>
+      <p><span class="agent-tag">🚀 Rocket</span> <span class="agent-tag">🎙️ Echo</span> <span class="agent-tag">🎨 Wong</span></p>
+
+      <p>Three dedicated landing pages — each optimized for a specific traffic source with distinct UX, copy, and conversion architecture. All are separate from the main WordPress site and deploy faster.</p>
+
+      <div class="lp-grid">
+        <div class="lp-card">
+          <div class="lp-label">Google Search Traffic</div>
+          <div class="lp-url">/san-antonio-landscaping/</div>
+          <ul>
+            <li>H1 matches RSA Pin 1 exactly for Quality Score</li>
+            <li>4-field form: Phone → Name → Service → Zip</li>
+            <li>CallRail Pool 1 DNI in header</li>
+            <li>Social proof band directly below fold</li>
+            <li>Lyon Financial badge above fold</li>
+            <li>Deploy gate: Credentials only — fastest LP to launch</li>
+          </ul>
+        </div>
+        <div class="lp-card">
+          <div class="lp-label">Meta + Nextdoor Social</div>
+          <div class="lp-url">/backyard-san-antonio/</div>
+          <ul>
+            <li>H1: "San Antonio Backyards Transformed. Yours Could Be Next."</li>
+            <li>Two-step tile form (outcome language, not service categories)</li>
+            <li>Tiles: "Stop fighting Texas summers" / "Transform my backyard" / "Build my dream yard" / "Just exploring"</li>
+            <li>Xeriscape + SAWS section (conditional on kickoff)</li>
+            <li>Lyon Financial section for warm retarget visitors</li>
+            <li>intent_type GA4 dimension fires on tile selection</li>
+          </ul>
+        </div>
+        <div class="lp-card">
+          <div class="lp-label">Nextdoor Warm Traffic</div>
+          <div class="lp-url">/san-antonio-neighbors/</div>
+          <ul>
+            <li>H1: "San Antonio's Neighborhood Landscaper — Trusted by 2,500+ Families"</li>
+            <li>1-step form (Nextdoor is warm — fewer steps)</li>
+            <li>Neighborhood credibility section first</li>
+            <li>Before/after gallery (stock placeholder → real photos at kickoff)</li>
+            <li>Pricing section gated — DO NOT deploy without Brian confirming at kickoff</li>
+            <li>iOS safe-area sticky footer confirmed</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>LP Copy Highlights (Echo)</h3>
+      <p><strong>lp-social-traffic:</strong> Aspiration-first tone. Soft CTA ("See What's Possible for Your Yard →") before hard form ask. Xeriscape section headline (Wanda's verbatim): "Save Water. Save Money. Love Your Yard." FAQ section with FAQPage schema.</p>
+      <p><strong>lp-nextdoor:</strong> Shorter than social LP — Nextdoor traffic is warmer, less education needed, faster path to form. "We've been transforming yards across Stone Oak, Alamo Heights, Helotes, and neighborhoods throughout San Antonio for over nine years."</p>
+
+      <h3>LP Deployment Sequence</h3>
+      <div class="phase-row" style="grid-template-columns:repeat(3,1fr);">
+        <div class="pc">
+          <div class="pc-label">Day 1</div>
+          <h4>lp-google-search</h4>
+          <ul>
+            <li>No photo dependency</li>
+            <li>Credential-only gate</li>
+            <li>→ URL to Hawkeye</li>
+            <li>Google Ads go live</li>
+          </ul>
+        </div>
+        <div class="pc">
+          <div class="pc-label">Day 1–3</div>
+          <h4>lp-social-traffic</h4>
+          <ul>
+            <li>Echo copy ✅</li>
+            <li>Wong visual pass</li>
+            <li>Rocket builds (same day)</li>
+            <li>→ URL to Falcon</li>
+          </ul>
+        </div>
+        <div class="pc" style="background:#14532d;">
+          <div class="pc-label">Day 1–3</div>
+          <h4>lp-nextdoor</h4>
+          <ul>
+            <li>Echo copy ✅</li>
+            <li>Stock photos approved</li>
+            <li>Pricing section gated</li>
+            <li>→ Nextdoor campaigns go live</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         12 · CLIENT ONBOARDING
+         =================================================== -->
+    <section class="report-section" id="onboarding">
+      <div class="section-label">Section 12</div>
+      <h2 class="section-title">Client Onboarding &amp; Kickoff</h2>
+      <p><span class="agent-tag">🌶️ Pepper</span></p>
+
+      <h3>Pre-Kickoff Priority #1 — Photo Archive</h3>
+      <div class="info-box terra">
+        <strong>🚨 Day 1 Unlock — Critical</strong>
+        Brian's project photo archive (before/after pairs) is the single most important asset to collect at kickoff. Even 10 pairs immediately activates Angle 1 (Neighbor Proof) on Nextdoor, Groot's video scripts, Shuri's carousel ads, and Mantis's social calendar. Request via Google Drive or Dropbox shared folder.
+      </div>
+
+      <h3>Credential Handoff List</h3>
+      <ul>
+        <li>☐ Website access — WP Admin login or GoDaddy account for migration</li>
+        <li>☐ Google Search Console — add agency email as owner</li>
+        <li>☐ Google Business Profile — add us as Manager</li>
+        <li>☐ Exact business phone number (E.164 format: +1XXXXXXXXXX)</li>
+        <li>☐ Confirmed service area: neighborhoods + zip codes</li>
+        <li>☐ Google Ads account — create or grant Manager access</li>
+        <li>☐ Meta Business Manager — pixel verification access</li>
+      </ul>
+
+      <h3>Kickoff Call Verification Items</h3>
+      <table class="report-table">
+        <thead><tr><th>Item</th><th>Why Critical</th><th>Unblocks</th></tr></thead>
+        <tbody>
+          <tr><td>Lyon Financial partnership — confirm active, get correct lender URL</td><td>Currently misspelled "Lion Financial" with ad URL</td><td>Wanda copy, Shuri ads, /financing/ page</td></tr>
+          <tr><td>Starting project price range</td><td>Unblocks Groot Script 5 (Price Reveal) and ROI math confirmation</td><td>Groot, Coulson</td></tr>
+          <tr><td>SAWS rebate eligibility</td><td>Activates Shuri's SAWS badge, Variant D, Offer schema</td><td>Vision, Shuri, Wanda, Falcon</td></tr>
+          <tr><td>Insurance certificate</td><td>Required for Google Guaranteed (LSA) badge</td><td>Hawkeye, Campaign 4</td></tr>
+          <tr><td>Photo archive depth</td><td>Format? How many before/after pairs available?</td><td>Shuri, Groot, Mantis, Rocket</td></tr>
+          <tr><td>Brian's weekly time commitment</td><td>~10 min/week for content + photo approvals</td><td>Calendar activation</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Post-Kickoff Handoff Sequence (Same Day)</h3>
+      <ul>
+        <li>→ <strong>Banner:</strong> Full credential package + GoDaddy → WordPress migration begins</li>
+        <li>→ <strong>Happy:</strong> CallRail provisioning brief (3 pools: Google / Meta+Nextdoor / Organic)</li>
+        <li>→ <strong>Shuri:</strong> Brand info confirmed + SAWS badge activation decision</li>
+        <li>→ <strong>Mantis:</strong> Social calendar brief + photo library access</li>
+        <li>→ <strong>Groot:</strong> Starting price for Script 5 (Price Reveal)</li>
+        <li>→ <strong>Vision:</strong> Phone number + service radius for schema markup</li>
+        <li>→ <strong>Falcon:</strong> Photo archive depth report + Nextdoor campaign go/no-go</li>
+        <li>→ <strong>Heimdall:</strong> GBP access for local optimization sprint</li>
+      </ul>
+    </section>
+
+    <!-- ===================================================
+         13 · ROI + TIMELINE
+         =================================================== -->
+    <section class="report-section" id="roi">
+      <div class="section-label">Section 13</div>
+      <h2 class="section-title">ROI Projections &amp; Activation Timeline</h2>
+      <p><span class="agent-tag">📋 Coulson</span></p>
+
+      <h3>Investment Summary</h3>
+      <div class="r-stat-row">
+        <div class="r-stat slate">
+          <div class="rn">$6,000</div>
+          <div class="rl">Monthly Retainer (agency services)</div>
+        </div>
+        <div class="r-stat terra">
+          <div class="rn">$2,900–3,500</div>
+          <div class="rl">Recommended Media Budget (separate)</div>
+        </div>
+        <div class="r-stat">
+          <div class="rn">$8,900–9,500</div>
+          <div class="rl">Total Monthly Investment</div>
+        </div>
+      </div>
+
+      <h3>ROI Projections</h3>
+      <table class="roi-table">
+        <thead>
+          <tr><th>Metric</th><th>Conservative Scenario</th><th>Target Scenario</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Digital leads/month</td><td>15</td><td>25</td></tr>
+          <tr><td>Close rate</td><td>20%</td><td>30%</td></tr>
+          <tr><td>Jobs booked/month</td><td>3</td><td>7–8</td></tr>
+          <tr><td>Average project value</td><td>$8,000</td><td>$8,000+</td></tr>
+          <tr><td>Monthly revenue from digital</td><td class="big">$24,000</td><td class="big">$56,000–64,000</td></tr>
+          <tr><td><strong>Return on $6K retainer</strong></td><td class="big">4x</td><td class="big">9–10x</td></tr>
+        </tbody>
+      </table>
+
+      <div class="breakeven-box">
+        <div class="be-label">Break-Even Point</div>
+        <div class="be-num">1 Project</div>
+        <div class="be-sub">Just 1 additional closed project per month covers the entire retainer.<br>Brian closes 2,500+ projects with zero digital marketing — this is incremental.</div>
+      </div>
+
+      <div class="info-box green">
+        <strong>🌵 Xeriscape Upside</strong>
+        Xeriscape installations trend 20–35% higher project value vs. standard sod installation. Owning xeriscape positioning raises average deal value without requiring more lead volume. If average project value rises from $8K to $10K on xeriscape mix — target scenario becomes $70,000–80,000/month in digital revenue.
+      </div>
+
+      <div class="info-box terra">
+        <strong>💧 SAWS Rebate Upside</strong>
+        Rebate-eligible xeriscape buyers have already removed their price objection before contacting us. Highest-intent, highest-close-rate segment in the market. A confirmed SAWS partnership elevates every xeriscape campaign's performance.
+      </div>
+
+      <h3>Month-by-Month Activation Timeline</h3>
+      <div class="phase-row">
+        <div class="pc">
+          <div class="pc-label">Month 1</div>
+          <h4>Foundation</h4>
+          <ul>
+            <li>WordPress rebuild — all service + neighborhood pages</li>
+            <li>Analytics setup (GA4, CallRail, Pixel, GTM)</li>
+            <li>GBP optimization (Heimdall)</li>
+            <li>Creative production from Brian's archive</li>
+            <li>Ad accounts configured (Google, Meta, Nextdoor)</li>
+            <li>LSA verification documents submitted</li>
+            <li>Schema deployed Day 1</li>
+          </ul>
+        </div>
+        <div class="pc">
+          <div class="pc-label">Month 2</div>
+          <h4>Launch</h4>
+          <ul>
+            <li>Google Ads live (Core + Xeriscape campaigns)</li>
+            <li>Nextdoor live — A/B test Variants A vs. B</li>
+            <li>Meta live (Neighbor Proof + Xeriscape Smart cold)</li>
+            <li>Organic social calendar begins (3x/week)</li>
+            <li>First 2 blog posts published</li>
+            <li>First weekly report delivered</li>
+            <li>Review generation campaign starts</li>
+          </ul>
+        </div>
+        <div class="pc">
+          <div class="pc-label">Month 3</div>
+          <h4>Optimize</h4>
+          <ul>
+            <li>Creative A/B winner scales, loser pauses</li>
+            <li>SAWS Variant D activates (if verified)</li>
+            <li>Meta warm retarget launches (Dream Yard Financed)</li>
+            <li>First ROI checkpoint: CPL by channel</li>
+            <li>Target: 50+ Google reviews from past 2,500 clients</li>
+            <li>LSA Google Guaranteed badge live</li>
+          </ul>
+        </div>
+        <div class="pc">
+          <div class="pc-label">Months 4–12</div>
+          <h4>Scale</h4>
+          <ul>
+            <li>TikTok Spark Ads from organic winners</li>
+            <li>Expand winning channels; reduce underperformers</li>
+            <li>Neighborhood pages expand from 5 to 12+ cities</li>
+            <li>Quarterly strategy reviews</li>
+            <li>Referral + repeat customer campaign</li>
+            <li>Topical authority builds → organic rankings grow</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         14 · APPENDIX
+         =================================================== -->
+    <section class="report-section" id="appendix">
+      <div class="section-label">Appendix</div>
+      <h2 class="section-title">Appendix — Competitive Intel &amp; Prospect Profiles</h2>
+      <p><span class="agent-tag">🔮 Oracle</span> <span class="agent-tag">🗺️ Friday</span></p>
+
+      <h3>A. Competitive Positioning Matrix</h3>
+      <table class="report-table">
+        <thead>
+          <tr><th>Competitor</th><th>Threat</th><th>Paid Ads</th><th>Financing</th><th>Schema</th><th>Nextdoor</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>DNS Landscaping</td><td style="color:#f59e0b;font-weight:700;">Medium</td><td class="cross">❌ None</td><td class="cross">❌ None</td><td class="cross">❌ None</td><td><small>Organic only</small></td></tr>
+          <tr><td>Grounded Landscaping</td><td style="color:#f59e0b;font-weight:700;">Medium</td><td class="cross">❌ None</td><td class="cross">❌ None</td><td class="cross">❌ None</td><td class="cross">❌ None</td></tr>
+          <tr><td>Hole In One Lawns</td><td style="color:#f59e0b;font-weight:700;">Watch</td><td><small>Possible</small></td><td class="cross">❌ None</td><td class="cross">❌ None</td><td class="cross">❌ None</td></tr>
+          <tr><td>Built to Bloom</td><td style="color:#16A34A;font-weight:700;">Low</td><td class="cross">❌ None</td><td class="cross">❌ None</td><td class="cross">❌ None</td><td class="cross">❌ None</td></tr>
+          <tr><td>Precise Irrigation</td><td style="color:#f59e0b;font-weight:700;">Medium</td><td><small>Possible</small></td><td class="cross">❌ None</td><td class="cross">❌ None</td><td class="cross">❌ None</td></tr>
+          <tr class="highlight"><td><strong>Boerjan's (at launch)</strong></td><td style="color:#16A34A;font-weight:800;">Leads</td><td class="check">✅ Running</td><td class="check">✅ Lyon Financial</td><td class="check">✅ Advanced</td><td class="check">✅ First Paid</td></tr>
+        </tbody>
+      </table>
+
+      <h3>B. SA Landscaping Market Context</h3>
+      <div class="r-stat-row">
+        <div class="r-stat">
+          <div class="rn">$163.8B</div>
+          <div class="rl">US Landscaping Market 2025</div>
+        </div>
+        <div class="r-stat terra">
+          <div class="rn">4–6.5%</div>
+          <div class="rl">Annual Industry Growth Rate</div>
+        </div>
+        <div class="r-stat slate">
+          <div class="rn">2.5M</div>
+          <div class="rl">San Antonio MSA Population (and growing)</div>
+        </div>
+        <div class="r-stat">
+          <div class="rn">Year-Round</div>
+          <div class="rl">SA Outdoor Season (No Winter Freeze)</div>
+        </div>
+      </div>
+
+      <h3>C. Digital Aggregator Strategy</h3>
+      <p><strong>Friday's Intel:</strong> Brian likely has an Angi/HomeAdvisor dependency — a significant vulnerability. These platforms sell the same lead to 5 contractors simultaneously, driving price competition and destroying margin. Our strategy replaces Angi/HomeAdvisor leads with owned direct-channel leads at lower CPL.</p>
+      <table class="report-table">
+        <thead><tr><th>Platform</th><th>Problem</th><th>Our Counter-Strategy</th></tr></thead>
+        <tbody>
+          <tr><td>Angi / HomeAdvisor</td><td>Same lead sold to 5 contractors. High CPL. Race to bottom on price.</td><td>Google Ads → direct booking. Lower CPL, zero competition for same lead.</td></tr>
+          <tr><td>Thumbtack</td><td>Pay-per-quote model, high waste</td><td>Direct search presence negates dependence</td></tr>
+          <tr><td>Nextdoor (organic)</td><td>DNS has organic listing, no paid</td><td>First-mover paid Nextdoor = outperforms organic listing immediately</td></tr>
+          <tr><td>Yelp</td><td>Review aggregator with poor lead quality</td><td>Google reviews (100+) = Local Pack dominance, direct calls</td></tr>
+        </tbody>
+      </table>
+
+      <h3>D. Why Backyard Marketing Pros</h3>
+      <ul>
+        <li><strong>Home services specialists</strong> — we only work with contractors, landscapers, builders. We know the industry cold.</li>
+        <li><strong>Full-stack</strong> — not just ads, not just SEO. Everything works together and is attributed.</li>
+        <li><strong>Attribution-first</strong> — every dollar tracked. Brian knows exactly which channel brought which call.</li>
+        <li><strong>Speed</strong> — Month 1 build sprint, Month 2 live. Not 6-month "strategy development."</li>
+        <li><strong>First-mover advantage</strong> — we identified six uncontested channels in Brian's market. We move before competitors notice.</li>
+        <li><strong>Referral amplifier</strong> — we build on top of Brian's word-of-mouth reputation, not replacing it. We make 9 years of excellence searchable.</li>
+        <li><strong>AI-powered team</strong> — 18 specialized agents working in parallel. More expertise, faster delivery, consistent execution every month.</li>
+      </ul>
+
+      <h3>E. Next Steps</h3>
+      <table class="report-table">
+        <thead><tr><th>#</th><th>Action</th><th>Owner</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Steve presents to Brian Boerjan</td><td>Steve Edwards</td><td>⬜ Pending</td></tr>
+          <tr><td>2</td><td>Brian approves and signs</td><td>Brian Boerjan</td><td>⬜ Pending</td></tr>
+          <tr><td>3</td><td>Credential handoff (see Kickoff Checklist)</td><td>Pepper + Brian</td><td>⬜ Post-signing</td></tr>
+          <tr><td>4</td><td>Photo archive: 20+ before/after pairs</td><td>Brian Boerjan</td><td>⬜ Post-signing, Priority 1</td></tr>
+          <tr><td>5</td><td>Kickoff call: confirm pricing, SAWS, Lyon, insurance</td><td>Steve + Brian</td><td>⬜ Post-signing</td></tr>
+          <tr><td>6</td><td>Month 1 build sprint begins</td><td>Banner + full squad</td><td>⬜ Day 1</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+  </div><!-- /report-container -->
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background:#0f172a;color:#64748b;padding:32px 0;text-align:center;font-size:.82rem;">
+    <div style="max-width:960px;margin:0 auto;padding:0 20px;">
+      <p style="margin-bottom:6px;color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.9rem;">Boerjan's Landscaping &amp; Design — Full Marketing Plan</p>
+      <p style="margin-bottom:16px;">Prepared by <strong style="color:#16A34A;">Backyard Marketing Pros</strong> · AI-Powered Marketing for Home Services · February 2026</p>
+      <p>Confidential — For Steve Edwards and Brian Boerjan only. Not for distribution.</p>
+      <p style="margin-top:16px;"><a href="index.html" style="color:#86efac;">← Back to Preview Hub</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
