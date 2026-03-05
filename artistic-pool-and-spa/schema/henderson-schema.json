@@ -1,0 +1,93 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "PoolService"],
+    "name": "Artistic Pool & Spa — Henderson, NV",
+    "url": "https://artisticpoolandspa.com/pool-builder-henderson-nv/",
+    "telephone": "+17028706760",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8879 W. Flamingo Rd. #203",
+      "addressLocality": "Las Vegas",
+      "addressRegion": "NV",
+      "postalCode": "89147",
+      "addressCountry": "US"
+    },
+    "foundingDate": "1974",
+    "description": "Custom pool builder serving Henderson, NV including Green Valley, Anthem, and MacDonald Ranch. Artistic Pool & Spa has built pools throughout Henderson since 1974.",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Henderson",
+        "sameAs": "https://en.wikipedia.org/wiki/Henderson,_Nevada"
+      },
+      {
+        "@type": "Neighborhood",
+        "name": "Green Valley"
+      },
+      {
+        "@type": "Neighborhood",
+        "name": "Anthem"
+      },
+      {
+        "@type": "Neighborhood",
+        "name": "MacDonald Ranch"
+      }
+    ],
+    "hasMap": "https://www.google.com/maps/search/Artistic+Pool+%26+Spa+Henderson+NV",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:30",
+        "closes": "16:00"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does a pool cost in Las Vegas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pool costs in Las Vegas typically range from $50,000 to $150,000 depending on size, materials, and features. A basic gunite pool starts around $50,000. Custom designs with spas, water features, and outdoor living spaces run higher. Artistic Pool & Spa has built 700+ pools across the Las Vegas valley — call us for a free, no-pressure estimate: (702) 870-6760."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does pool installation take in Las Vegas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most pools take 8 to 12 weeks from permit approval to first swim. The permit process in Clark County typically adds 2 to 4 weeks before construction begins. Artistic Pool & Spa handles all permitting and keeps you updated at every stage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you build pools in Henderson, NV?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Henderson is one of our primary service areas. We build custom pools, spas, and outdoor living spaces throughout Henderson, including Green Valley, Anthem, and MacDonald Ranch. Contact us for a free consultation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long has Artistic Pool & Spa been in business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Artistic Pool & Spa has served the Las Vegas valley since 1974 — over 50 years of custom pool building. We are a licensed, insured Nevada contractor with more than 700 completed projects across Las Vegas, Henderson, Summerlin, and North Las Vegas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you do pool remodeling and resurfacing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We remodel existing pools, replace pool surfaces, upgrade equipment, add water features, and retrofit older pools with energy-efficient systems. If your pool was built by someone else, we can still help."
+        }
+      }
+    ]
+  }
+]
