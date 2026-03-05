@@ -20,6 +20,18 @@
         "@type": "City",
         "name": "North Las Vegas",
         "sameAs": "https://en.wikipedia.org/wiki/North_Las_Vegas,_Nevada"
+      },
+      {
+        "@type": "Neighborhood",
+        "name": "Aliante"
+      },
+      {
+        "@type": "Neighborhood",
+        "name": "Eldorado"
+      },
+      {
+        "@type": "Neighborhood",
+        "name": "Carey Park"
       }
     ],
     "hasMap": "https://www.google.com/maps/search/Artistic+Pool+%26+Spa+North+Las+Vegas+NV",
@@ -38,10 +50,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "How much does a pool cost in Las Vegas?",
+        "name": "How much does a custom pool cost in North Las Vegas?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pool costs in Las Vegas typically range from $50,000 to $150,000 depending on size, materials, and features. A basic gunite pool starts around $50,000. Custom designs with spas, water features, and outdoor living spaces run higher. Artistic Pool & Spa has built 700+ pools across the Las Vegas valley — call us for a free, no-pressure estimate: (702) 870-6760."
+          "text": "Custom pool costs in North Las Vegas typically range from $55,000 to $130,000+ depending on size, features, and lot conditions. Many North LV neighborhoods like Aliante and Eldorado have newer lots with generous backyard space, which often means more build flexibility. Artistic Pool & Spa has built 700+ pools across the Las Vegas valley — call us for a free, no-pressure estimate: (702) 870-6760."
         }
       },
       {
